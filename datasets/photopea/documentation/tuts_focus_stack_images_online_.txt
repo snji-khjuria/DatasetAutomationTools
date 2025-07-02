@@ -1,0 +1,18 @@
+| | | | | | 
+June 17, 2022
+# Focus-Stack Images Online
+Do you need to focus-stack your images? Fuse multiple images with a different focus? It can be done easily online, for free!
+Modern cameras can not focus on both near and far objects. Focusing at one object makes another one blurry, so it is impossible to take a sharp photo. But we can take multiple and make a computer combine these images together!
+## Open Images in Photopea
+Open , press File - Open, and load one of your images. Then, press File - Open and Place, and select the remaining images (all at once). They will be placed as new layers into the current document.
+There is a Layers panel onthe right side. Here, we can see all our layers. Click at the top one, press Shift, and click at the bottom one, to select them all.
+## Align Images if necessary
+If your images are not aligned, press **Edit - Auto Align**. It will move, rotate or enlarge each image, so that they are aligned nicely to each other. But for the best quality, we recommend using a tripod.
+## Blend Images Together
+Now, press **Edit - Auto Blend**. It will find sharp parts in each image, and combine them together, to produce a final sharp image. This method works with . It masks out blurry parts of every layer, keeping only sharp parts visible. You can refine a mask manually by painting on it with a black or a white color. 
+Now, just click File - Export As - JPG, to save your final image :)
+## Problems with RAM
+If your images are huge (tens of millions of pixels) and you have many of them (50 - 500), it might be impossible to open them all at once (as it would require tens of GB of RAM).
+You can combine the first ten images together, save the result as "A.jpg". Then, combine next ten together, save it as "B.jpg", and so on. At the last step, combine images "A.jpg", "B.jpg", "C.jpg" ... together, to get the final image.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

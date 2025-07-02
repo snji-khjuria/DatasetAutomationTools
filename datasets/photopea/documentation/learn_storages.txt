@@ -1,0 +1,31 @@
+| | | | | | 
+### Topics
+# Storages
+Right when you open Photopea, there is a list of **storages** on the left side.
+A storage represents some "place with data" (files and folders). Photopea has a file manager, which lets you browse these files and folders. The main purpose is to simplify your work:
+  * double-click a file (in a storage) to open it in Photopea
+  * press Ctrl+S in Photopea to save it back (to a storage)
+
+
+You can switch between a Tile / Icon / List views, or sort items by Name / Date / Size.
+Right-click to rename, duplicate or delete files, folders, or make new files and folders. Select several items by holding Ctrl or Shift (Ctrl+A to select all). Press letters on a keyboard to jump to items starting with that letter. You can download any file to your device, or drag-and-drop files from your device to a storage.
+You can browse a storage at any time using **File - Open More - Storage**. You can save your work as a new file in some storage using **File - Save More - To Storage**.
+## Endpoints
+We offer several endpoints at the moment:
+  * your local device
+  * cloud storages (Google Drive, Dropbox, One Drive)
+  * Peadrive - the cloud storage from Photopea
+
+
+You can switch between storages by clicking them on the left side. You can even copy files in one storage and paste them into a different storage! Photopea offers the easiest way to move all your data from Google Drive to Drobpox, without copying them to your computer in between!
+Storages enable us to create file-related features, like batch-processing hundreds of GB of files with a single click, saving 100,000 versions of your work to your device (e.g. through a script), or simply getting a total number of all PSD files in your computer (or any other storage).
+## Peadrive and Sharing
+When you log in to Photopea (the "Account" button at the top), you can . You also get access to the Peadrive storage.
+Peadrive is a special storage. Each item (a file or a folder) can be shared with teams that you are a member of, with certain permissions (Read or Read&Write). When you enter Peadrive, there is a special folder called "Shared". Inside it, there is a special folder for each of your teams. Inside each team folder, there are items that someone shared inside that team.
+Simply Right-click an item in a Peadrive storage, and choose "Share With" - Team Name - Permission (Read, Read&Write, or Unshare, if it is already shared).
+### Examples
+For example, you are one of five members of a team "Work". Your boss (also a member of a team) has a folder "Mockups" in his Peadrive. He shared this folder with a team "Work" (Read&Write permissions). Now, you can browse through this folder, open the files in Photopea, modify them, and press Ctrl+S. The old file (in your bosses Peadrive) will be replaced by a new one made by you. Or you can save it separately as a new file in the "Mockups" folder (creating a new file in your bosses Peadrive, since he gave you the Write access to his "Mockups" folder).
+Another example: an accountant prepares a PDF file each month, which all 100 employees must see. He can send 100 emails once a month. If there is a mistake, a new PDF must be created and 100 new emails must be resend, explaining that this PDF replaces the old one, and the old one must be ignored.
+Or everyone can log in at www.Photopea.com, the accountant makes a team "Company" and everybody joins in. The accountant makes a folder "Business" in his Peadrive, shares it with a team "Company" (Read permission) and adds one new PDF file each month. Every employee can see all PDF files from all months next to each other. If a PDF contains a mistake, the accountant simply replaces it with a new one. The employees can be sure that they always see the latest version.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

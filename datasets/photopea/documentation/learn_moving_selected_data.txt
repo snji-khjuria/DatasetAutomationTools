@@ -1,0 +1,11 @@
+| | | | | | 
+### Topics
+# Moving Selected Data
+Once you have a selection, and a regular layer is active in the Layers panel, you can work with it in many ways. You can **copy** (Edit - Copy or Ctrl + C) or **cut** (Edit - Cut or Ctrl + X) the selected area. After you **paste** it with Edit - Paste or Ctrl + V (you can even paste it into another document), it will be inserted as a new layer.
+When you move a layer (with the Move tool) without any selection, the whole layer is moved. But when you move it with some selection present, the behavior is more interesting.
+As you start moving the selected area of the layer, this area is **cut** (or **copied** , if you hold the Alt key) out of the layer and moved along the mouse cursor. It behaves as a separate temporary **layer inside a layer**. As soon as you deselect, the moved area is combined with the rest of the layer.
+This is one of the fastest ways to manipulate parts of a layer. You can switch temporarily from any selection tool to the Move tool just by pressing the Ctrl key, so no clicking in the Toolbar is required. Everything happens within a single layer, so you don't have to click into the Layers panel. Using mouse is not required at all, because once the Move tool is on (after pressing Ctrl), you can move objects with cursor keys on the keyboard.
+You can even apply Free Transform to the selected part of the layer. The part will be cut out and transformed, and will remain separated after the transformation (still within the single layer), until you deselect it.
+Note, that all these operations can also be performed on raster masks.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,16 @@
+| | | | | | 
+### Topics
+# Smart Tools
+These tools use artificial intelligence and can save you a lot of time.
+## Spot Healing Brush
+Spot Healing brush lets you remove objects and unwanted artifacts from pictures. Simply draw over an unwanted area, just like you do with a Brush tool, and release the mouse. After that, the area, that you drew over, will be "forgotten" and replaced with some appropriate content, that surrounds the area.
+For example, when you have a sandy beach and there is a stone in the middle, you draw over that stone and it will be replaced with sand. If you have a field with yellow flowers and a single red flower, you draw over the red flower and it will be replaced by a yellow flower. You can "heal" the skin, remove scratches from old photographs etc.
+You would have to use Clone Stamp for several minutes to achieve a similar result. Spot Healing Brush usually takes 1 to 5 seconds. In extreme cases, it may take up to 10 seconds to fill the area (when the area, more than 50% of the image area should be healed).
+Below, you can see the original image, the spot, that is being healed, the result from Photopea and the result from Adobe Photoshop. We believe, that Photopea produces better results, than Adobe Photoshop (but it also takes more time).
+## Healing Brush
+Using a Healing brush is the same as using Clone Stamp. The only difference is, that the cloned content is adapted to the surrounding after releasing the mouse.
+## Patch
+With a patch tool, you first have to create a selection over an area that you want to be replaced. Then, you can drag that selection to another place, to choose the source of cloning. And again, the area is adapted after releasing the mouse.
+With the Spot Healing Brush, you only choose an area that should be healed. For next two tools, you have to choose both that area, and the source, from which the new image content should be taken (similar to a Clone Stamp).
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

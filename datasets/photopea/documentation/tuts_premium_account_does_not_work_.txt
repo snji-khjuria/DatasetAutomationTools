@@ -1,0 +1,19 @@
+| | | | | | 
+July 7, 2021
+# Premium Account does not work
+You paid for a Premium account, but you still see ads in Photopea? The solution is very simple!
+Anyone can log in to Photopea and buy a Premium account. Our database has two records: an email of the user, and the end of Premium for that user (if there is no Premium, the date is 1970).
+Email | End of Premium  
+---|---  
+jack@gmail.com| 1970  
+peter@hotmail.com| June 23th, 2022  
+jane@fastmail.com| 1970  
+Users log in through a service like Facebook or Google. The main goal is to get your true email address (the one you see after clicking "Account" at Photopea.com). If your email address has Premium, the "Account" button is green.
+If your email at Facebook is different than your email at Google, and you buy Premium as one email address, and then, log in as another email address, you can not use that Premium. There are several solutions:
+  * Log out and log in with the service, that was used when you ordered Premium
+  * Use the same email at Facebook, Google ... then, it does not matter how you log in
+  * Write us an email to and ask us to move your Premium from one email address to another
+
+
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

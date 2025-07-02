@@ -1,0 +1,21 @@
+| | | | | | 
+### Topics
+# Actions
+Sometimes, we need to **automate** image editing. We can record our work as an **action** and apply it to other documents later.
+## Actions Panel
+Actions are managed through the **Actions panel**. It can be displayed by pressing Window - Actions. Here we see the structure of current actions in the middle. We can manipulate with actions using the buttons at the bottom of the panel.
+There is a strict structure of actions. Basic units are **Action Sets** (which have a Folder icon). An Action Set contains **Actions** (which have only an arrow). Each Action may contain **Steps** (which have a checkmark on the left).
+You can click on Action Sets, Actions, or Steps, to select them. Use the buttons at the bottom to modify the structure.
+  * **Record** - start recording your work (as Steps) into a selected action. Press it again to stop recording.
+  * **Apply** - apply an action to the current document
+  * **New Action Set**
+  * **New Action**
+  * **Delete** - delete a selected Action Set, an Action or a Step
+  * **Export** - export a selected Action Set as an .ATN file
+
+
+## ATN files
+Photopea can process (load and save) actions inside ATN files. These files are used by Adobe Photoshop and probably other software.
+Each ATN file contains exactly one Action Set. Press File - Open, to load the ATN file into Photopea. Press the Export button (in the Actions panel) to export the current Action Set as an ATN file.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

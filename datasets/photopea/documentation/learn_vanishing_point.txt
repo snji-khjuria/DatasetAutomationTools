@@ -1,0 +1,22 @@
+| | | | | | 
+### Topics
+# Vanishing Point Filter
+Photos are flat, and when we add a new element into them (a sticker, a text, a grafitti), it is placed on top of the current image. But what if we want to put something on a wall, on a floor or on a building, which are viewed at the angle?
+The **Vanishing Point Filter** allows us to define "3D areas" on top of our image. Then, we can simply place the content into these areas, or copy the content from one area to another.
+Press Filter - Vanishing Point. You will see your document (all layers), but it will change only the current layer (or a selected part of it, just like any other filter). Apply the filter to an empty layer to keep the old conetent unchanged.
+## Planes and Relations
+A **plane** is a rectangular area in space (with four corners). It represents a flat surface of an object. A plane can be **main** , or adjacent ("glued") to a **parent plane**. Then, it is perpendicular to its parent plane. A set of a main plane and its adjacent planes is called a **relation**. You can have multiple relations in your image, with at least one plane in each.
+Here you can see three relations: one plane on the left, two at the top, and three planes in a relation at the bottom right.
+There is a toolbar on the left. Tools at the bottom (Hand, Zoom) allow you to navigate through your document.
+## Making Planes
+Use the Move tool to select planes (hold Shift to select several). Press Delete to delete selected planes (and those adjacent to them). Drag the edges of planes to resize them. Hold Ctrl and drag the edge to create a new plane adjacent to a current one.
+Use the Crop tool to create a new main plane - a new one-plane relation. You can drag corners of a main plane (as long as it has no adjacent planes). You can edit the Grid Gap in a text field at the top.
+## Painting into Planes
+We have two tools for painting: the Stamp tool and the Brush tool. The Brush allows you to paint into any plane (the line becomes thinner as you move to distant spots of a plane). The Stamp allows you to pick a spot for cloning (while holding Alt) and then, painting will copy the cotnent from the surface of one plane to the surface of another. Each tool has its options at the top.
+## Transforming Content
+There is a Marquee tool (a rectangular selection), which lets you select a rectangular area from one or more planes. Then, switch to a Transform tool, to start transforming the selected area. You can move it across planes, resize it, rotate, etc. To confirm, just switch to another tool.
+Instead of selecting, you can press Ctrl+V to paste the image from your clipboard (e.g. copied from another layer or another document) into a selected plane, and transform it.
+The Transform Tool can be enabled only when there is a selection, or after pasting an image.
+This filter does not work on photos that were cropped (and the center of the image has changed), because then, it is not a valid projection of a scene.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

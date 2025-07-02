@@ -1,0 +1,20 @@
+| | | | | | 
+### Topics
+# Artboards
+A document in Photopea is a rectangular area, which contains graphics (layers with images, text, vector shapes, etc.). But what if we want to have "multiple documents in one document"?
+A document can have **artboards** , which look like "documents inside a document". We can move them around, move layers from one artboard to another, resize the artboard, etc. A document will be saved as a single PSD files, with all artboards inside it.
+If we look deeper, an artboard is just a **folder** of layers. If we move a folder, all layers inside are also moved. But there are a few differences:
+  * Each artboard has its own rectangle (a "window") attached to it, only the layers inside that rectangle are displayed.
+  * An artboard can have a custom background color.
+  * Artboard can not be placed into another folder, it is always "top level".
+
+
+## Working with Artboards
+When creating a new document, we can check the "Artboard" checkbox, to have a document with a single empty artboard. Artboards are common in formats like Sketch, XD, Figma, and Photopea can detect artboards in these files. If you open a PDF, each page is converted into an artboard.
+You can manage artboards with the **Artboard tool**. Chose the tool and draw a rectangle to create a new artboard. If you select an artboard (in the Layers panel), you can resize it, or click the "+" button to add a new artboard of the same size. You can rename or delete an artboard just like you do with any other layer.
+Press Window - Properties to see properties of an artboard. You can enter specific dimensions there, or change the background.
+When you select an artboard, rulers are redrawn relative to that artboard (zero at the top left corner of the artboard). When you add guides, they will be attached to a selected artboard (and will be hidden if you select another one).
+## Exporting Artboards
+When you export to formats like PNG or JPG, there is the "As Artboards" checkbox. Enable it to export a ZIP archive with a PNG/JPG file for each artboard. When you export to PDF, each artboard is turned into a separate PDF page.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

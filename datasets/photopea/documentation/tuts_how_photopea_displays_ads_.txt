@@ -1,0 +1,15 @@
+| | | | | | 
+July 8, 2024
+# How Photopea displays ads
+Photopea is monetized mainly through advertisement. Ads may cover between 5% and 15% of the screen. How exactly are they displayed
+Ads are displayed according to a size of the screen of your device.
+## Min(Width, Height) < 500 px (mobile screen)
+A small ad (320x50 px) is placed at the bottom of a screen.
+## Width < 1500 px (regular screen)
+A narrow ad (160x600 px) is placed on the right side of a screen. An extra unit (120x240 px) might be placed below, if it fits.
+## Width > 1500 px (large screen)
+A regular ad (300x250 px) is placed on the right side of a screen multiple times. An extra unit (300x100 px) might placed below, if it fits.
+## Ad blocker detected
+When an ad blocker is detected, various JPG images are placed instead of ads. They might ask you to get Photopea Premium, or lead to various games. We can not make money in this case.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

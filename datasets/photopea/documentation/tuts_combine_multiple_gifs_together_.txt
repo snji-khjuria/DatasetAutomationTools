@@ -1,0 +1,13 @@
+| | | | | | 
+July 21, 2019
+# Combine multiple GIFs together
+Make a GIF, where two or more GIFs play simultaneously, at the same time.
+We will see how to do it in . First, learn .
+Open the main background image (or make an empty image with File - New). Now, open two or more GIFs (with File - Open) and duplicate their layers into the main image. You can move them, resize, rotate etc. If you export it now, animations will paly one after another (not simultaneously).
+Now, simply press **Layer - Animation - Merge**. The structure will change as illustrated below.
+Now, just press **File - Export as - GIF** , Save, and you are done :)
+## Example
+Here, we put two GIFs on the image of a beach. The first GIF (hamsters) is enlarged.
+Hamsters: 5.6 KB, Mario: 132 KB, Beach + Hamsters + Mario: 151 KB.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

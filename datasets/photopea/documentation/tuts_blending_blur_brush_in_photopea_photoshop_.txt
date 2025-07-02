@@ -1,0 +1,9 @@
+| | | | | | 
+March 27, 2025
+# Blending (Blur) Brush In Photopea / Photoshop
+We often paint with a small number of colors, and later, we want to blend the edges between the colors, to create a blurry effect. How can we do it?
+We can acheive this using the **Smudge tool**.
+Increase the Size of the brush and set the **Hardness** to zero.
+Now, open the Brush window (Window - Brush) and enable **Scatter**. Set Position Jitter to 10% and Count to 2. Now, you are ready to paint! :)
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,17 @@
+| | | | | | 
+April 20, 2023
+# Convert images into a MP4 video online
+We have a set of images (10, 100, 1000 ...) which we want to turn into a video, with each image as a video frame. How can we do it?
+## Do it with Photopea
+It can be done easily and for free with . And there is **no upload** , so if you have 500 MB of images and a slow internet, you won't have to wait.
+Open Photopea.com and press "New Project", set the document resolution of your final video, and press "Create". Now, drag-and-drop all images from your computer into Photopea. Alternatively, you can use File - Open and Place to place several images into a document. You will se each image as a separate document layer on the right side. Delete the original background layer by clicking it (in the Layers panel on the right) and pressing Delete.
+There is a : when the layer name starts with "_a_", it defines an animation frame. Press Ctrl+Alt+A to select all layers, and press Layer - Animation - Make frames. This will add "_a_" to the names of selected layers.
+Now, just press File - Export As - MP4. Click on the preview to play your video. You can also set the speed (framerate) and once you are happy, press "Save", to save an MP4 file!
+## Extra tricks
+  * It is just as easy to turn images into a GIF, APNG or WEBP animations, just click a different format instead of MP4
+  * If you open an MP4 or GIF in Photopea, you already get frames as layers with "_a_" in the name. Now, you can use Photopea to reorder or delete video frames, change the resolution, crop the video, convert GIF to MP4 or MP4 to GIF, etc.
+  * When a layer has no "_a_" in the name, it is present in all frames. Use it to add a watermark or a text to your video.
+
+
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

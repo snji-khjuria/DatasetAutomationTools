@@ -1,0 +1,13 @@
+| | | | | | 
+### Topics
+# Layer Manipulation
+Photopea offers you many ways to manipulate layers. You can move them, rotate, bend etc.
+## Move Tool
+The Move tool is the basic tool for moving layers and their parts. It is the first tool in the toolbar. It can be enabled temporarily by pressing Ctrl key (after releasing Ctrl, you will return to your previous tool). By default, it will move all layers, that are currently selected (in the Layers panel). Note, that it is enough to select just the folder, to move all its content.
+If you select just the mask of the layer, and that mask is not linked to the main content, the Move tool will move the mask only. Similarly, you can move only the main content, without moving the mask.
+When the Move tool is active, you can move object also with cursor keys ("arrows") on your keyboard. One keypress will move the content by one pixel. If you hold Shift, content will be moved in ten pixel steps.
+The Move tool has the **auto-select feature** , which can be enabled in the top menu, or temporarily by holding Ctrl key. With auto-select enabled, you can press anywhere in the image, and Photopea will automatically detect the closest layer under your cursor, and make it selected (in the Layers panel). This way, you don't have to select layrs manually in the Layers panel, but it is enough to click on them. Of course, if some layer is completely covered by another layer, you can not select it this way.
+## Aligning objects
+Sometimes you want to align two or more layers together (e.g. so they all have centers at the same point, or to get their upper edge to the same height). Just select multiple layers and use **one of six buttons** in the top menu of the Move tool, to align these layers.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

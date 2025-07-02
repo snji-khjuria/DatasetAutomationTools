@@ -1,0 +1,19 @@
+| | | | | | 
+### Topics
+# Opening and Saving files
+Digital graphics is stored as a **raster** image, or a **vector** image. There are many formats for saving and distributing various types of graphics. Let's mention **PNG and JPG** , which contain a single-layer rectangular raster image (a grid of pixels).
+Image editors use their own file formats, that contain raster and vector graphics, and additional information, which can be useful for changing the image in the future. For example, when we add a text into an image and save it as a PNG, letters would become pixels and such text would be hard to change (we would have to guess the font name, character size, the original image behind the letters would be lost).
+Photopea uses the as the main format for storing image documents with an additional information. It was designed for the use in Adobe Photoshop and became very popular since then. All files, that you open in Photopea (such as PNG, JPG, Sketch) are converted to PSD (when they are not PSDs already). When you finish editing, the result can be saved from the PSD to other formats.
+Photopea also supports many kinds of resources, that can be used for editing the image. You can load your own brushes, gradients, fonts and more, the same way you open images.
+## Opening files
+There are several ways of opening files. The standard way is through the **Open dialog** (File - Open). You can also paste images (from the system clipboard) simply by pressing Ctrl + V. Another way is to open files by dragging them from your local system and dropping them into the Photopea environment inside a web browser.
+When you have no documents opened, dropped files will be opened in a regular way. When some documents are already open in Photopea, you can drop new document into the main area of the current document. The new file will be inserted into the current document as a new layer (a Smart Object layer).
+When some documents are opened, you can drop new files into the top bar of the main area (which contains the list of opened documents). Then, new files will be opened separately.
+There is an experimental feature, which allows you **take pictures** using the camera of your device right inside Photopea. Press File - Take a picture to take a picture.
+You can also .
+## Saving files
+You can save your work as a PSD file (to preserve the whole structure of the document) using **File - Save as PSD**. You can also save your file for the distribution on the web (through JPG, PNG, SVG, PDF and other formats) using **File - Export As - PNG** , JPG etc.
+The Save for Web window lets you choose the output format. You can also enter the resolution of the output image. Now, you can already use Photopea to resize images (File - Open, File - Export As - JPG, enter the new size and Save).
+When a document was opened from your device, the **File - Save** can be used (in ) to replace the old version of a file. Also, if you opened your file from Google Drive, or as a Smart Object, or from a server (using the API), File - Save will save your file to a correct destination.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,9 @@
+| | | | | | 
+January 11, 2019
+# Open RAW Photos Online
+Modern cameras can save images in RAW formats. RAW files need additional processing, before they can be printed or used on the Web. Let's see, how we can do it quickly online, for free.
+RAW files can be quickly opened in Photopea at . Once you are there, click File - Open, and find your RAW file. Photopea supports **.DNG, .NEF, CR2, .ARW** and other raw formats.
+You will see your photo in front of you, and a histogram of colors. You can adjust several properties, such as **White Balance** (with a Tint and Temperature slider), **Exposure** or **Contrast**.
+When you are happy with how your photo looks like, press **Open** to edit the photo further in Photopea, or press the **JPG** button, to quickly get a JPG version of your photo.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,15 @@
+| | | | | | 
+### Topics
+# Text Style
+There are two kinds of style parameters: **Character Style** (e.g. text size, color, ...), which can be different for each character, and **Paragraph Style** (e.g. text aligning, margin etc.), which is shared by the whole paragraph.
+Character properties can be found in the Character panel (Window - Character), while Paragraph properties can be found in the Paragraph panel (Window - Paragraph). Some basic Character and Paragraph properties can be found also in the top menu of a Type tool.
+When the type layer is selected (in the Layers panel), you can change the style (e.g. the font family or aligning) of the whole layer. Another option is to enter the layer and select a specific part of the text. As you change the style, it will be applied only to the selected part of the text.
+## Align
+Aligning of a Paragraph text layer is computed with respect to the sides of the rectangle. Aligning of a Point text layer is computed according to the point of origin. Below, we can see a Point and a Paragraph text with the same three paragraphs. The first paragraph is aligned to the left, the second is aligned to the right, and the third is aligned to the center.
+## Writing directions
+When you use e.g. latin and arabic words in the same text, they direction of writing is detected automatically, just as in any other text editor. But there is so-called **base direction** , which is necessary for the correct rendering of bidirectional text and punctuations. You can change the base direction in the Paragraph window.
+## Custom fonts
+Photopea has a huge database of royalty-free fonts. If you know any free font, it is probably already available in PP.
+For all other fonts, Photopea allows you to open them (TTF or OTF files) the same way you open any other file (File - Open, or drag-and-drop). They will be added to the end of the font list and used, when some type layer needs them.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

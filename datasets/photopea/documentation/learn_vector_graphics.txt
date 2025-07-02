@@ -1,0 +1,17 @@
+| | | | | | 
+### Topics
+# Vector Graphics
+Photopea has a rich set of tools to work with vector graphics. Vector graphics can be stored in **Paths** , **Vector Masks** or **Shape Layers**.
+## Paths
+Just like a list of layers, a document may contain a list of **paths**. They can be viewed in a Paths panel (Window - Paths). In this panel, you can select paths, delete paths, create new, rename them, etc.
+There is a special path called **Work Path**. By default, all vector graphics are stored into this path. When it is empty, it is not shown in a Path panel.
+## Vector Masks
+Any layer can have a vector mask. Just as a raster mask, vector mask defines, which part of the layer should be visible and which should be hidden. Raster and vector masks can be enabled, disabled or edited at any time without changed the actual content of the layer.
+## Shape Layers
+A Shape is a layer containing only the vector shape with a Color fill, a Gradient fill or a Pattern fill. In fact, it is just a Fill Layer with a vector mask.
+Below is a standard layer with a vector mask and a shape layer is beneath it.
+## Paths Panel
+As we said before, Paths panel displays a list of paths of the document. Also, if any Shape layers or vector masks are selected, it will show you them as paths at the end of the list. So the panel allows you to work with all three formats of vector graphics. However, these paths can not be renamed or deleted here, as they belong to layers. 
+You can add or delete paths by clicking the buttons at the bottom of the panel. You can hold Ctrl and click on the thumbnail of the path, to turn it into a selction.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

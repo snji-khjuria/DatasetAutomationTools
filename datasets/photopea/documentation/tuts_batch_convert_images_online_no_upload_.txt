@@ -1,0 +1,9 @@
+| | | | | | 
+July 17, 2022
+# Batch Convert Images Online (no upload)
+Did you ever want to convert hundreds of images from one format to another, like PNG to JPG, or TIFF to WEBP? You can do it in a browser without uploading them anywhere!
+Open and press File - Automate - **Convert Formats** , to see the following tool:
+If you want, you can disconnect from the internet now, to be sure your images are not uploaded anywhere.
+Click "Source Images" to select images from your computer. Each selected image can have a different format, such as JPG, PNG, GIF, PSD, TIFF, WEBP, etc. Choose the target format and some additional parameters (Quality, etc). Now, just click "Convert Images", and wait, until you get a ZIP file with images in a new format. File names are preserved, but the extension is changed.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

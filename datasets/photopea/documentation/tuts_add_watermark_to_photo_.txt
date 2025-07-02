@@ -1,0 +1,23 @@
+| | | | | | 
+September 6, 2018
+# Add Watermark to a Photo
+Sometimes, we need to place a watermark into a photo. How can we do it fast and for free?
+## Open Your Image
+First, go to . Press File - Open, and open open your main (background) image.
+## Make a Watermark
+Now, we need an element, that we will use as a watermark. We have several options:
+  * **Load another image** : Press File - Open & Place. Open your image, and then hit Enter to confirm placing.
+  * **Make a watermark yourself** : E.g. use a Brush or to draw a circle or other interesting shapes.
+  * **Type a text** : Use a to type your own text.
+
+
+Once we are done, right-click the watermark layer (in Layers panel) and choose Rasterize.
+**Optional:** we can also adjust the colors. Press Image - Adjustments - Hue/Saturation. Drag the Lightness to make the watermark completely black or completely white. Confirm with OK.
+## Position the Watermark
+We may want our watermark to be in the corner of the image, or to be repeated over the whole image as a pattern. To move it to the corner, choose a Move tool (the first in the Toolbar) and drag the watermark to a correct position. You can also use to make it bigger or smaller.
+To repeat the watermark across the whole image, press Filter - Other - Repeat. Here, you can choose many parameters, such as Scale, Row Shift, Spacing, Angle etc. Confirm the filter by pressing OK.
+## Change the Opacity
+Once we have the right watermark at the right position, we can change the way it interacts with a background. The main two parameters are the Opacity and the Blend Mode, which you can change at the top of the Layers panel. Useful blend modes are Multiply, Screen and Overlay.
+Now, press File - Export As - PNG or JPG. And we are done! :)
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,8 @@
+| | | | | | 
+September 15, 2022
+# Extract a Depth Map From a Photo
+Certain cameras, especially in phones, can attach a depth information to a JPG file. How can we extract that depth map and save it for further usage?
+Go to , press File - Open, and select a JPG photo from your device. You should see layers on the right side (if it is hidden, press Window - Layers). You will see a depth map layer, and possibly a sharp version of your image, too.
+Press "the eye icon" next to a layer to unhide it. Once visible, press File - Export as - JPG, to save a JPG version of your depth map. And we are done! :)
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

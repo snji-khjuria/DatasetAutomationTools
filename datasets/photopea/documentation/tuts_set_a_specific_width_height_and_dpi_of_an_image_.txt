@@ -1,0 +1,14 @@
+| | | | | | 
+March 18, 2024
+# Set a specific Width, Height, and DPI
+**Example** : we have a square image from the internet, and we need to make it **9" x 3.7" at 300 DPI**. We will do it for free using .
+*** 300 **DPI** means that we should have 300 **Dots** (pixels) **Per Inch**. If we multiply 9 inches by 300 pixels per inch, our image should be 2700 pixels wide. 3.7 x 300 = 1100 pixels tall.
+We have a square image, but 9 x 3.7 inches is not a square. We will resize our image first (while keeping the width / height ratio), and then, we will crop it (cut away parts at the top and the bottom of the square), to get a wide rectangle.
+## Resizing
+Open your image in Photopea (File - Open), and then, press Image - Size. Set the units to Inches, and set the Width to 9 and the Height to 9 (one side should have the required size, another can be larger - we will cut it later). Set the DPI to 300, and press OK.
+## Cropping
+The easiest way to crop is using the Canvas Size. Press Image - Canvas Size, set the units to Inches, and enter the reqizred size of 9" x 3.7". Press OK, and we are done! Now, press File - Export As - JPG, and save the result to your computer :)
+## Comments
+**Image Size stretches the content** of the image. If there was a car in our image, which was 2 inches big, we can make it 3 inches big. **Canvas Size ignores the content** , it only cuts away parts from the sides. The size of each object stays the same.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

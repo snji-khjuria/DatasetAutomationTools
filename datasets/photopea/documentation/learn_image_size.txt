@@ -1,0 +1,14 @@
+| | | | | | 
+### Topics
+# Image size
+All (PSD) documents, even those with vector-only graphics, have a specific document size (the resolution in pixels). Higher resolution will give you a better precision, but it also makes image files larger. You can change the document resolution in several ways.
+## Scaling the image
+Photopea allows you to make the resolution lower or larger and scale the content of the document according to the new resolution. You can do it by choosing **Image - Image Size** and entering a new size. You can also enter a new DPI value there.
+You can also rotate or flip the image using Image - Transform - Rotate etc.
+## Cropping the image
+Another way of changing the resolution is by cropping the image. It will preserve the resolution and the quality of the content, but it will change the "window", through which you can see the content or its part. The basic way to do it is through **Image - Canvas Size**.
+## Crop tool
+The crop tool allows you to define the "viewing window" manually. Choose the Crop tool and draw a rectangle over the document. You can drag the rectangle to move it across the document, or drag the corner to change its size. You can also rotate the rectangle by dragging it near the edge, which allows you cropping the image using a different angle.
+Once your cropping rectangle is ready, you can confirm or cancel the cropping in the top menu.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

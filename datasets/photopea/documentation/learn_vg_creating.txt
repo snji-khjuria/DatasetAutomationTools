@@ -1,0 +1,26 @@
+| | | | | | 
+### Topics
+# Creating shapes
+Photopea offers several tools for creating vector graphics: Pen, Free Pen, Rectangle, Ellipse, Polygon etc.. Each tool has one of three modes, which you can switch in the top menu.
+  * **Path** - adds new elements into a current path (current Shape layer, Vector Mask, or into a current path, selected in Paths panel)
+  * **Shape** - creates a new Shape layer
+  * **Pixels** - the result is rasterized immediately, then combined with a current raster layer
+
+
+When you choose the Path mode, you can also choose the boolean operation, that will be used for new elements.
+## Pen
+This tool allows you to create paths knot - by - knot. Press the mouse in the image area to add a knot. Then drag and release to add handles, or release immediately to keep handles collapsed. Clicking again on the first knot in the path will close the path. Try to learn how to use the Pen tool.
+If there is one knot already selected, the new knot is added right after that knot (into the same path). Otherwise, the new path is started, and the knot becomes the first knot in the new path.
+The regular usage is to click to start a new path, then keep clicking to add more knots (since each new knot is selected after adding, so the next knot is added right after it). But you can also select some knot manually (with Direct Select) and new knots will be added after it (into an existing path).
+## Free Pen
+Click with mouse and draw some shape. Then, release the mouse. Your stroke will be converted into a smooth vector curve. Change the Tolerance value to make a curve smoother.
+##  Specific shapes
+Click and drag with a mouse to draw a path with the specific geometric shape. Hold Shift to keep the proportions of the new path.
+##  Custom shape
+With this tool, you can add a complex shape from the current gallery of shapes. You can import your own collections of shapes in a CSH format using File - Open.
+##  Parametric Shape
+This tool can draw other exotic shapes, which require some parameters. You can draw **a Polygon, a Star, a Spiral** and possibly many other shapes in the future. Each shape has several parameters, which allow you to customize the shape.
+## Text to Shape
+You can convert any text layer into a vector shape layer by right-clicking it (in Layers panel) and pressing **Convert to Shape**. Each character will become a path with knots, which you can modify manually (e.g. rotate each character by a random angle).
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

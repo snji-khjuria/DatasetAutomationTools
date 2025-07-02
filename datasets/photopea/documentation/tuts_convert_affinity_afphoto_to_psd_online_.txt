@@ -1,0 +1,8 @@
+| | | | | | 
+May 15, 2022
+# Convert Affinity AFPHOTO to PSD online
+Did you ever need to view the Affinity file, or convert it to a PSD? You can make it easily with !
+After opening , press File - Open, and choose the Affinity file from your computer. Photopea works locally (no upload), so even a 100 MB file can be opened in under a second.
+You can analyze your file, see layers and other content. Press File - Save as PSD, to save it as a PSD to your computer, and that's it! You can view that PSD later in Photopea, Adobe Photoshop, or other programs supporting the PSD format.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

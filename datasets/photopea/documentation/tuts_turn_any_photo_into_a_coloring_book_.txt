@@ -1,0 +1,20 @@
+| | | | | | 
+June 24, 2023
+# Turn any Photo into a Coloring Book
+We can turn our photos into a coloring book / coloring page, a so-called "Color by Number" or "Paint-by-number", online, for free. How can we do it?
+First, let's look at what we are going to get. We can see the origianl photo, the produced outlines and labels (for 8 colors), and the colored page.
+## Color By Number
+Open , press File - Open, and open your photo. Next, press Image - Vectorize Bitmap. We can see several options here.
+  * **Colors** - enter the **number of colors** , we recommend using 4 up to 20 colors
+  * **Reduce noise** - reduces the noise in your photo, it is usually better to keep it off
+  * **Method** - keep **Photo** for photos
+  * **Coloring book** - keep it on. It turns lots of tiny areas into several big areas
+  * **Polygon** - areas will be polygons, specify the Roughness to "simplify" the areas
+  * **...** - choose what you want to get from your photo: the filled areas, the stroke around areas, or labels (numbers of colors and a palette). For a coloring book, disable "Fill" and enable "Stroke" and "Labels"
+
+
+Once it looks as you wanted, just hit "OK" and your coloring page is ready! Now, you can export it in a PDF format for printing: File - Export As - PDF, to get a file which looks . You can also export it as a regular PNG image, or as a SVG - a vector file.
+## Number of Colors
+With more colors, you can get a better image, but it will be harder to color.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

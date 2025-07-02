@@ -1,0 +1,13 @@
+| | | | | | 
+May 29, 2020
+# Convert Figma to PSD
+Figma is a popular tool for creating user interfaces. But it can not export into a PSD format, and Adobe Photoshop can not open FIG files. But you can do it automatically as described below.
+## FIG to PSD
+At the moment, Photopea is the best tool for converting Figma FIG documents to Photoshop PSD files. Open to start a free online photo editor.
+Load a Figma file from your device: press **File - Open** (in the top left corner) and find and select a Figma file (or use ).
+The content of a Figma file (all pages and artboards) should be in front of you. You can click **File - Save As PSD** and get a PSD version of your file :)
+## Missing fonts
+If you use any special fonts in your Figma file, load them into Photopea with File - Open (and select TTF or OTF files). Photopea will use these fonts to redraw the corresponding text layers.
+An example of the same Figma file in Photopea and Figma: the layer structure is preserved.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

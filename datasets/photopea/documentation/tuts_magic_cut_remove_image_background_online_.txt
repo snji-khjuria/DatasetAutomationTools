@@ -1,0 +1,24 @@
+| | | | | | 
+March 14, 2020
+# Magic Cut – Remove Image Background Online
+Magic Cut is a tool for removing background (cutting out an object) from a photo. It is one of the fastest ways to do it, and you can use it online for free.
+*** You can also try our .
+Magic Cut is a part of . Go to Photopea, press File - Open, and open an image you want to work with. Then, press **Select - Magic Cut**.
+## User Interface
+Use Magic Cut by painting over the image with two colors:
+  * Foreground (the object) with **Green**
+  * Background with **Red**
+
+
+The workspace consists of **two sides**. You can paint on the left, and you will see the result on the right. At the top, you can choose the brush size and the color (Red or Green), a Grey is an eraser.
+You can Zoom to a specific place with a Mouse Wheel, or by pressing Ctrl + Plus (or Minus) on your keyboard. You can move the image while holding the Spacebar, or by dragging the preview image.
+When you start Magic Cut, your image is pre-marked with Red and Green, as the "initial guess". You can keep working with that guess, or clear it with a **Clear** button and start from scratch. But make sure there is never any Green color in the background, or a Red color in the object (use the Grey color to erase such places).
+## Border
+By default (with Border = 0), Magic Cut marks every pixel as a Foreground or a Background, creating hard edges betwen these areas. The Border value allows you to soften the edge between Foreground / Background by a certain rate.
+You can start working with Border = 0, to determine the initial result (also, Magic Cut works faster with Border = 0). Then, gradually increase the Border, until you find the right value. If the object contains hair or fur, you should set the border to 20 or even more.
+## Save The Image
+When the result on the right looks well, press **OK** at the top to confirm it. Now, you can export your image as a PNG: File - Export As - PNG, confirm with **Save**. And it is done! :)
+Instead of saving as a PNG, you could add a new background, and save it as JPG. Note, that PNG format supports transparent areas, while JPG does not.
+**Another demonstration of the Magic Cut.**
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

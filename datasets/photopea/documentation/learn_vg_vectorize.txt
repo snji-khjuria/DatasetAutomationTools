@@ -1,0 +1,12 @@
+| | | | | | 
+### Topics
+# Vectorize Bitmap
+Sometimes, we may have a raster image (JPG, PNG ...), which used to be a vector image. The original vector image can be recreated by hand, but it may take a lot of time. Photopea can do it automatically, it is called **bitmap vectorization** or **bitmap tracing**.
+After we open our raster image (or select the right layer in a layered image), press Image - Vectorize Bitmap. We will see a special Vectorizer window.
+We can see the original image on the left and the vector image on the right. We can move both images with a mouse, or zoom in / out with a mouse wheel. We can also set two parameters: 
+  * Number of colors
+  * Noise reduction
+
+The need of the noise reduction is detected **automatically** for each image and we recommend not to change that setting. Once we are satisfied with the vector output, hit OK. Our original raster layer will be replaced with corresponding vector layers, ready for an additional vector editing, or for the export as vector graphics: SVG or PDF. 
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

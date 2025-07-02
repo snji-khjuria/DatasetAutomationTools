@@ -1,0 +1,21 @@
+| | | | | | 
+March 10, 2019
+# Swap Faces Online
+Do you want to see a person with a face of another person? We will show you how to replace faces online for free.
+Ther are many ways, how we can replace faces. We may have a photo of two people, and we can swap their faces. Or we can have two photos, one face in each photo, and we can replace a face in the first photo with a face from another photo. Or maybe we have a group photo with many people, and we want to give them all the same face.
+We will demonstrate our work on , where we want to replace each face with a face of Nicolas Cage.
+Go to to start a free online photo editor. Open your main photo using File - Open. You can open more photos, if needed. You can switch between them using "tabs" at the top.
+Swapping faces can be done in three steps: Cut and Paste, Rearrange and Auto-Blend.
+## Cut and Paste
+We need to select each face, so that we can copy it and place into the main document. We can select a face with a Lasso tool. Choose the Lasso tool (in the toolbar on the left) and draw a line around the face.
+Copy the selected area by pressing Ctrl+C (or Edit - Copy in the top menu), switch to the main document, and press Ctrl+V (or Edit - Paste) to paste it. If you are swapping faces inside one picture, just copy and paste it in the same document, to get a new layer. You can paste it multiple times, if you need multiple copies of the face. You can select and paste other faces in the same way.
+## Rearrange
+We have all we need in one document. There is the main background photo, and several layers (faces) on top of it. We need to move, resize and rotate each face, to get it to the right spot.
+Select a face that you want to work with (by clicking it in the layers panel). We will transform it with a **Free Transform tool**. Press Edit - Free Transform (or Alt+Ctrl+T), you will see a reactangle around your face. You can move it by clicking and dragging inside the rectangle. You can resize it by dragging its corners (hold Shift to keep the proportions). You can rotate it by clicking and dragging near the corners (outside the rectangle). Once you are done, hit Enter to confirm the transformation.
+You can rearrange other faces in the same way.
+## Auto-Blend
+We have all faces at correct locations. But they look very unnatural, there is a visible border between the original face and a new face. The skin tone may be different, or there are different light conditions, etc. Photopea contains a very smart feature called **Auto-Blend**. It will connect all layers into one layer, and it will also **adapt** the color tone of each layer (i.e. each face) to the color tone of the most bottom layer.
+Start by selecting all layers in the Layers panel. You can click the top layer, hold Shift, and click the bottom layer, to select them all. Now, just click Edit - Auto-Blend.
+Your photo is ready! Now, save it as JPG by pressing file - Export As - JPG - OK.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

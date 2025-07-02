@@ -1,0 +1,18 @@
+| | | | | | 
+### Topics
+# Animations
+Animated images (GIF, APNG, WEBP), are very popular. An animation has several static images - **frames** , and the information, for how long each frame should be displayed (before going to the next frame). Photopea can open, edit and save animations.
+## Animations in Photopea
+Photopea can make an animation from layers of the document by showing a different layer in each frame. To define a new frame, the layer name should start with `_a_`. It can be a regular layer, a folder of layers, or any other layer.
+When you export such document as a GIF, PNG or WEBP, Photopea detects all layers starting with `_a_`. The first such layer is shown in the first frame (others starting with `_a_` are hidden). The second such layer is shown in the second frame, etc.
+**Example** : we have five layers: `background, _a_dog, _a_cat, _a_tree, watermark`. The GIF will have three frames (3 layers start with `_a_`). `background` and `watermark` will be in all frames. 
+When you open an animation (GIF, APNG, WEBP) in Photopea, Photopea will turn every frame into **a layer with a proper name**. So when you edit an animation (delete frames, reorder frames, resize ...), there is no need to change layer names.
+## Delay
+A layer which starts with `_a_` makes a new frame, which will be shown for 100 ms by default. To set your own delay, put `,` and a number to the end of the layer name. E.g. `_a_dog,500` will be displayed for half a second.
+## Merge frames
+Let's say we have 3 frames of one animation and 3 frames of another, i.e. six layer starting with `_a_`. The resulting GIF will have six frames. Can we make these two animations play simultaneously "in parallel"?
+We need to turn it into 3 frame layers, where each layer contains images from both animations. We can do it manually: merge each two layers into one using Layer - Merge Layers.
+We can do it automatically. Put each animation in a folder and press **Layer - Animation - Merge**.
+Photopea will find all folders, and merge their frames together. Alternatively, you can select only folders you want to merge (in Layers Panel) before pressing Layer - Animation - Merge.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

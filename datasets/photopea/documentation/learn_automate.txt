@@ -1,0 +1,11 @@
+| | | | | | 
+### Topics
+# Automate
+There are several ways to **automate** your work in Photopea.
+  * - record your work as a sequence of steps, apply these steps later
+  * - write a script (program code), which can process the document
+  * - define several variables. Then, give Photopea a spreadsheet with different values for each variable, to produce different versions of your work
+
+
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

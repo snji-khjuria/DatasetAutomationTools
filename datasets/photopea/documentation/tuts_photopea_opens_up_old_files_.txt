@@ -1,0 +1,29 @@
+| | | | | | 
+June 30, 2023
+# Photopea Opens Up Old Files
+You opened , and your old files opened right away? This can be fixed!
+## Work Backup Mechanism
+Photopea has a file-backup mechanism, which helps prevent data loss. Every five minutes, Photopea saves each opened document as a temporary PSD file to your computer (using ).
+When you close your document in Photopea (with the "X" button), or you close the whole website, backup versions are deleted from your computer. However, if your battery dies, or your browser crashes, these files stay in your computer.
+Every time you open Photopea, it looks for these temporary PSD files inside your computer, and if it finds any, it opens them up. You can proceed to work with them, save them, or simply close them (properly this time).
+You will never find out this mechanism even exists, if you:
+  * have plenty of RAM and a good battery
+  * never use Photopea for over five minutes
+
+
+## Impossible To Close Files
+Many of our users use browser extensions, which break this backup mechanism: Photopea is not allowed to detele a temporary file, so it opens them every time it starts. You can do following:
+  1. close all tabs with Photopea (if there are any opened on your computer)
+  2. look at your browser extensions (e.g. at **about://extensions**) and disable them all
+  3. open Photopea and close all documents you see (now, there is no extension to stop us)
+  4. try to close and reopen Photopea several times, it shouldn't load old files anymore
+  5. you can enable all your extensions back
+
+
+There is probably just one extension which breaks Photopea, and you could simply disable it permanently. However, none of our users ever told us which extension it was. Plese, tell us in comments, which extension it was, it can help others!
+## Clearing Website Data
+Temporary PSD files saved by Photopea to your device are a part of **Website Data** , and another way to get rid of them is to simply clear website data. Click the round icon next to "photopea.com" and click "cookies and site data". Here, you can clear all website data of Photopea. Now, it will look like you have opened Photopea for the first time in your life.
+- sadly, it is more complicated than in Chrome.
+Your web browser might be configured to clear website data (cookies and others) automatically (e.g. to prevent tracking), so our backup mechanism will not work at all.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

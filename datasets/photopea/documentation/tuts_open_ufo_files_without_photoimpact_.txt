@@ -1,0 +1,9 @@
+| | | | | | 
+October 9, 2023
+# Open UFO files without PhotoImpact
+was a popular photo editor, which created files with the UFO extension. You can open UFO files easily in your web browser, or convert UFO to PSD files, for free! :)
+## Just drag and drop a file!
+Open , press File - Open, and select your UFO file. Alternatively, you can drag-and-drop a UFO file from your local computer into a browser window (running Photopea).
+You should see the UFO image in front of you, together with a list of layers on the right side. Next, you can save it as a PSD (File - Save as PSD), or export it as a JPG, PNG or any other popular image format (File - Export As - ...).
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

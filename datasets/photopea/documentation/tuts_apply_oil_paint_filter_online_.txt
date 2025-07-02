@@ -1,0 +1,8 @@
+| | | | | | 
+February 9, 2020
+# Apply Oil Paint Filter Online
+An Oil Paint filter is a very popular filter to be applied on photos. It creates an effect of brush strokes, which paint the image. Now, you can use it online for free.
+Filters based on are very pouplar, as they create the effect of painting with a brush. The Oil Paint filter in Adobe Photoshop is very well known, as it also creates the Bevel effect along the brush strokes (adds a glow and a shadow to the sides of a stroke). This filter is also available for free in the Photopea editor.
+Go to and press File - Open, to open your photo. Then, press Filter - Stylize - Oil Paint, to apply the filter. There are several filter parameters. Once you are happy with the result, press OK to confirm the filter. Now, you can press File - Export As - JPG, to save it as a JPG image! :)
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

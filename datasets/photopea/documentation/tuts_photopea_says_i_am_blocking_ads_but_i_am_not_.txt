@@ -1,0 +1,22 @@
+| | | | | | 
+November 25, 2023
+# Photopea says I am blocking ads, but I am not
+Did you turn off your ad blockers for Photopea, but it still says you are blocking ads? Look at the **possible reasons** below.
+## Your adblocker is lying to you
+Are you using or and you turned it off for Photopea? We found out that these extensions are lying to their users about being turned off (they still block some domains). You can switch to to or . If you tell them to stop blocking ads on a website, they actually stop it.
+You can also tell Google Chrome to turn off an extension on a specific website (works for any ad blocker). Right-click the ad blocker and choose **This can read and change site data** - **When you click the Extension**. 
+## Other ad blocking extensions
+You could have extensions, which break our ads, but do not contain "ad" or "block" in their name. E.g. blocks the ad consent dialog, which prevents our ads from running.
+Press the "puzzle piece icon" in your browser to see, what extensions have your permission to **see and change information on the site** (in other words, they can modify a website in any way they want). Try to disable some of them.
+## Strict tracking prevention in MS Edge
+If you enable the "Strict" mode under "Tracking prevention" in MS Edge, it basically blocks a website from loading any content (including ads) from other domains. Go to `edge://settings/privacy` and set it to "Basic" or "Balanced" instead.
+## Strict Browser Privacy in Firefox
+If you enable "Strict - Stronger protection, but may cause some sites or content to break" in Firefox, it seems to be blocking ads. You can turn it off by going to `about:preferences#privacy`.
+## Brave Browser
+The Brave browser displays ads in Photopea only when you **put down the shields**. Click the orange "lion icon" to put the shields down.
+## Countries under sanctions
+Are you in Syria, Cuba, Iran, Russia or North Korea? Our ad provider does not do business in these countries, we recommend you to try using a VPN.
+## Site-blocking software
+You have a special software in your computer, which decides, what pages you should or should not access. E.g. Safing Portmaster, Pi-hole, or some antivirus software.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,21 @@
+| | | | | | 
+### Topics
+# The structure
+The content of a vector mask (or a shape layer) is called a **Shape**. The Shape consists of several **Paths**. A Path consists of multiple **Knots**. Each knot consists of three points: the **anchor** and two **handles**.
+Here we see a shape consisting of four paths. The path on the right consists of five knots. The knot consists of an anchor (in the middle) and two handles.
+## Path
+There can be several paths within a shape. Paths have a fixed order (the first, the second, the third ...). Each path has some **boolean operation** , which defines, how the path (e.g. the fourth path) is combined with the content under it (i.e. paths 1, 2 and 3). Boolean operations are **Union** , **Subtract** , **Intersect** and **Exclude**.
+Here we see four shapes with two paths in each shape. The second path (the ellipse) has different boolean operations.
+When all paths have the Union operation, their order is not important. But e.g. when some path has a Subtract operation, reordering paths may produce a different result.
+Paths can be open or closed. Open path means, that the first and the last knot are connected with a straight line (ignoring the adjacent handles).
+## Knots
+A path consists of a sequence of knots. Each two consecutive knots are connected with a curve segment, that is shaped by adjacent handles. A knot can be **linked / smooth** (both handles are located in a line with the anchor) or **unlinked / corner** (handles have arbitrary locations). A linked knot guarantees the smooth curve, while an unlinked knot usually creates a corner.
+A linked knot is visualised with a circle anchor, while an unlinked one has a square anchor.
+The handle of the knot is **collapsed** , when it is located at the location of the anchor point. When all knots in a path have collapsed handles, then the path consists only of straight line segments (i.e. it is a polygon).
+## The Look
+While vector masks simply hide the portion of a layer, Shape Layers have more interesting properties. Each Shape Layer has **a Fill and a Stroke** value. Fill and Stroke can have one of four values: **None, Color, Gradient and Pattern**. Combine different values of Fill and Stroke to create various styles. Have a look at possible combinations.
+Stroke can have many parameters: Line thickness, position: Inside, Center, Outside, corner shape, gaps (dashed line) etc. When your shape contains just a single open path, the first and the last knot will not be connected inside a stroke.
+### Change the look
+When any vector tool is enabled (e.g. a Pen tool or a Rectangle tool), the top menu shows the Fill and the Stroke parameters of a current shape layer. You can change these parameters there. 
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

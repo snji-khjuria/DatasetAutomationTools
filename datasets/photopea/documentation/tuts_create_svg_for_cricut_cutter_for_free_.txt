@@ -1,0 +1,16 @@
+| | | | | | 
+October 1, 2019
+# Create SVG for Cricut cutter for free
+Prepare an SVG file for a Cricut cutting machine. Do it for free in an online editor .
+## Create a new document
+Once you open , press File - New. Enter the Width: 1000, Height: 1000, Background: Transparent, and press Create.
+## Type your text
+Choose a Type tool from a toolbar on the left side (or press T on your keyboard). Now, click into the document area and start typing. You can start over it by pressing Escape and clicking into the document again.
+Once you finish typing, select your text with a mouse and change its look in the menu at the top. You can choose the font, text size, text color, alignment, etc. Many more parameters can be found in a . I used the font Pacifico, and the size 250 px. You can confirm it with a Checkmark in the top menu.
+## Turn it into a shape
+Now, look at the Layers panel (at the bottom right part of the screen). Right-click the text layer (that has an icon with a "T") and choose "Convert to Shape".
+Choose a Path Select tool in a toolbar (or press A) and click at one of the letters. You will see tiny "nodes" around it, which define the vector shape. Look at the top: there is a drop-down menu containing "Unite". Click it and choose "Merge". This will convert all overlapping shapes (characters in our case) into one shape with a solid contour.
+## Export as SVG
+Your text is ready now! Press File - Export as - SVG, and hit Save. You can open that SVG in Cricut Design Space or Silhouette Studio Designer Edition.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

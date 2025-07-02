@@ -1,0 +1,21 @@
+| | | | | | 
+### Topics
+# Navigation
+We already know, how to open and save files in Photopea. The next step is viewing the image and its parts comfortably and moving between different areas of the image.
+## Zoom tool
+The Zoom tool allows you to zoom in and zoom out at different places of the image. Just select the tool (in the toolbar on the left) and click on the image. You can switch between zooming in and zooming out in the top panel, or by pressing the Alt key on the keyboard. You can also click and drag to the right to zoom in, or drag to the left to zoom out.
+There is a **quick mode** for the Zoom tool. By pressing **Ctrl + Spacebar** , you will switch to the Zoom tool, which you can use in a regular way. E.g. you can add or release Alt to switch between zooming in and zooming out. After releasing the keyboard keys, you will return back to the previous tool. It is one of the fastest ways to zoom.
+## Hand tool
+The Hand tool allows you to move the view to different parts of the image. Choose the Hand tool in the toolbar, then click and drag on the image to navigate to other places.
+There is a **quick mode** for the Hand tool. Press the **Spacebar** to switch temporarily to the Hand tool. Then release the Spacebar to go back to the previous tool.
+## Rotate View tool
+This tool allows you to rotate the view of a document. You can find it right under the Hand tool. Click and drag the document to rotate it around the center of the screen. Click **Reset** at the top to go back to 0°.
+Zooming and scrolling is also possible with a **mouse wheel**. Turn the mouse wheel to scroll vertically, or add Ctrl to scroll horizontally. Hold the Alt key to zoom with the mouse wheel instead of scrolling.
+## Rulers
+You can enable Rulers in Photopea (View - Rulers, or Ctrl + R), which will help you navigate inside the document and to estimate the size of objects.
+## History of actions
+Your work in Photopea is represented as a **sequence of actions** , that are applied to a document. Each action performs some change to the document, and creates a new state of the document. This list of actions is shown in the History panel. New actions will appear at the bottom of the list.
+Photopea allows you to withdraw your editing and return to previous states. Clicking the name of an action in the History panel will get you back to the previous state. Also, you can move forward in the history by clicking last actions (at the bottom of the list).
+Another way to return to previous or future states is by choosing Edit - Step Forward (Shift + Ctrl + Z) or Edit - Step Backward (Alt + Ctrl + Z). You can also use Edit - Undo / Redo (Ctrl + Z) to switch between last two states (it does not allow you to go "deeper" in the history). 
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

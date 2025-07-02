@@ -1,0 +1,20 @@
+| | | | | | 
+July 26, 2019
+# Change Text in an Image Online
+Do you have a photo and want to change text in it? It can be done quickly online, see how to do it!
+We will edit our photo in a free online editor . Once you are there, press File - Open, and find your image (it can be JPG, PNG, etc.). There are two steps: **Removing the old text** and **typing a new text**.
+## Removing Text
+When there is a simple, **solid-color background** , we can remove text simply by painting over it with a Brush tool. In the toolbar on the left, click the Brush tool icon (or press B on your keyboard).
+Hold the Alt key and click into the image. It will pick the color from that spot and set it as the **Foreground color** (the main color for painting and other operations). Now, release the Alt key and simply paint (click and drag) over the text.
+You can increase the brush size in the menu at the top (to paint faster). You may need to pick the color several times, if there are different colors behind each part of the text.
+### Complex Background
+What if there is a **complex background** , like grass or sand, behind the text? Painting with a solid color would make our "fix" too obvious. Instead, we will **clone** the background, and put that cloned part over the text.
+In the toolbar, choose the **Healing Brush tool**. It is right above the Brush tool.
+Hold the Alt key and click into the image (on the background). It defines the source of cloning. Now, release the Alt key and paint over the text. You will see the background (from the source of cloning) appearing under your brush, as if you "cut out" the background with scissors and glued it on top of the text.
+You can use this technique to remove anything from a photo (a person, a tree, a tattoo ...).
+## Add New Text
+Switch to a Type tool in the toolbar (or press T). Click into the image, where the text should begin. Now, you can type a new text (you will see it appear on the screen as you type), although, it may not look like the original text.
+Once you are done typing, select the text (Ctrl+A, or press the mouse at the beginning of the text, move to the end and release the mouse). You can change the text style in the top bar. The main parameters are the **Font** , **Size** and the **Color** of the text. Click on them and choose a new value.
+You can learn about more text parameters: or about (Drop Shadow, Stroke, Gradient overlay ...). Once the image looks right, press File - Export As - JPG, and save your file.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

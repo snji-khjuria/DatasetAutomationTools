@@ -1,0 +1,17 @@
+| | | | | | 
+May 30, 2018
+# How To Crop A Photo Online
+Cropping a picture is a very basic operation. We will show you, how to do it quickly online, with just a couple of clicks.
+## Crop A Photo
+Go to to start a free online photo editor. If you see a Welcome Screen, you can close it by pressing the Cross in the top right corner.
+Open a photo from your computer: click File - Open (in the top left corner), then find and select the file in your device (or use ).
+Select a Crop Tool from the toolbar on the left side.
+Click into the image and drag the mouse (to the bottom right side), then release the mouse button. A rectangle is drawn. It represents the part of your image, that you want to keep (the rest will be removed). Resize this rectangle by dragging its sides or corners. You can move it by clicking and dragging inside it.
+Once you have the right cropping rectangle, confirm it by clicking the checkmark in the top menu.
+And we are done! Now, press File - Export As - JPG and hit "Save" in the saving window.
+## Crop To A Specific Size
+Sometimes, we want our new image to have a specific size, e.g. 100 x 100 pixels. Press Image (at the top) - Canvas Size.
+Here, we can enter a new size (Width and Height) and confirm with the OK button. We can still re-position a new image by clicking and dragging it inside a canvas.
+When the position is good, we can export it with File - Export As - JPG.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

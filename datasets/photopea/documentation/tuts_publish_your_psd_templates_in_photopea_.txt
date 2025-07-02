@@ -1,0 +1,14 @@
+| | | | | | 
+February 17, 2022
+# Publish Your PSD Templates in Photopea
+Photopea contains many PSD templates, which anyone can use for free. You can share your own templates with others, it is very simple!
+There is a public database of free templates at . They are also available right in Photopea by clicking "File - Open More - Free Templates". Publishing your own template there is very simple, two things are needed: **a link to your document** , and **a link to a thumbnail**.
+When your document is opened in Photopea, press File - Share - PSD. You will get a link like this: .
+An easy way to get a thumbnail is to press File - Share - JPG (Imgur), to get an link like this: 
+## Publish your template!
+Go to , press Account at the top and log in. Open templates (e.g. the "Free Templates" button in the middle of Photopea). Press "Add Templates" at the top left corner.
+You will see a list of your published templates (initially empty) and a button "New Template". Click it to see the following form:
+Fill in the parameters. Use a link to your document as "File", and a link to your thumbnail as "Thumbnail URL". Set a name, a description, and a category for your new template. Click "Save" and you are done! :)
+Welcome to the club of template makers! :) Watch the grow, or discuss it with them in the comment section of each template. You can change the parametrs of your templates at any time, or delete your templates completely. 
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

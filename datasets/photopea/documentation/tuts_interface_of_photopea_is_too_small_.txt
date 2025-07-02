@@ -1,0 +1,13 @@
+| | | | | | 
+April 12, 2023
+# Interface Of Photopea Is Too Tiny
+You have been using Photopea for a long time, but suddenly, all buttons, menus, text labels and the whole interface became too small and tiny (or too big), what is going on?
+## Webpage Zoom
+It is all caused by a webpage zoom. You told your web browser to scale the website down (or up). As a proof, you can see the magnifying glass icon next to "photopea.com" 
+## Fixing the problem
+In **Google Chrome** , just click that icon and click "Reset", to reset the webpage zoom to 100%.
+In **Mozilla Firefox** , just click the number with the value of zoom, to reset it back to 100%.
+## How did it happen?
+If you don't remember changing the webpage zoom, you probably did it accidentally by pressing some keyboard shortcuts. E.g. if you press Ctrl+Minus in Photopea, it zooms out the document. But if you click outside Photopea into the browser search bar, Ctrl+Minus is not delivered to Photopea, and a browser interprets it as zooming.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

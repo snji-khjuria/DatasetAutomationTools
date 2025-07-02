@@ -1,0 +1,31 @@
+| | | | | | 
+### Topics
+# Layers
+Each PSD document consists of **layers**. The layer represents some part of the image. It is usually an area filled with transparent, partially transparent or opaque pixels.
+Layers are rendered one on top of another, to create the final image. You usually edit just one layer at a time. Changing (moving, rotating, drawing into) one layer has no effect on other layers.
+## Layers panel
+**Layers panel** is the main place for working with the layer structure of the document. You can find it in the sidebar on the right. It cotnains the list of all layers and their thumbnails. Layers at the bottom of the list are the layers "in the back", while layers at the top are the layers "in the front".
+When we have many layers, we need to choose one, wich we want to work with. A layer can be **selected** simply by clicking on it (on its name or on its thumbnail) in the Layers panel.
+Sometimes we need to select multiple layers at the same time. E.g. if we want to rotate all of them by the same angle, or delete them all at once. When one or more layers are selected, hold the Ctrl key and click on other layers, to add them to the selection, or click on already selected layers (while still holding Ctrl) to unselect them.
+## Folders of layers
+When we have hundreds or even thousands of layers in our document, working with them in the Layers panel can be very hard. We would need to scroll the list for a long time to find a specific layer. But there is a solution.
+Photopea (as well as many other image editors) allows you to create **folders of layers**. You can put related layers inside one folder. Folders can contain other folders. The folder can be folded and unfolded, just like the folder in your computer.
+When you select a folder (e.g. by clicking on it), all its content is also selected (even though it is not highlighted in the panel). By moving / rotating / deleting one folder, you also move / rotate / delete all the content of that folder.
+## Basic layer properties
+There are several basic properties of the layer, that you can change in the Layers panel. The main property is the **visibility** , which you can switch by clicking the eye icon of a layer (or a folder). When some layer is selected, you can edit the and the **opacity** of that layer at the top of the Layers panel.
+Each layer can be **locked** in several ways:
+  * **Transparency** - the transparency is locked (you can paint only into non-empty areas)
+  * **Pixels** - pixel data is locked (you can not paint into the layer)
+  * **Position** - position is locked (you can not move the layer, rotate it, etc.)
+  * **All** - all previous locks at once
+
+
+Each layer has the name, which can help you understand the sturcture of large documents. Double-click the name of the layer, then you can enter a new name. After you type a new name, press Enter to confirm it, or Escape to return to the previous name.
+## Changing the structure
+You can drag and drop layers inside the Layers panel. This way, you can reorder layers (e.g. put the layers from the back to the front), place layers into folders (or take them out of folders), put a folder into another folder etc. By selecting multiple layers (folders), you can drag all of them at the same time.
+You can find several basic buttons at the bottom of the Layers panel.
+The **garbage bin** button lets you delete all selected layers. The **New Layer** button will add a new empty layer on top of the current layer (the one that is selected). The **New Folder** button will add a new empty folder on top of the current layer. The last button creates the raster mask on the current layer. Similar options are also available by clicking the **Layer** button in the menu at the top, or by right-clicking a specific layer in the Layers panel.
+Another useful operation is **duplicating** the layer (right-click - Duplicate, or Ctrl+J). You can also duplicate layers between different documents (right-click - Duplicate into). Another convinient way to duplicate layers is to drag them to "another panel" with a Move tool. Choose a Move tool, click on the layer (in the workspace), drag it over the label of another document and wait until documents are switched. Now, you can move the layer iside this second document and release the mouse. 
+**Merging** multiple layers into a single layer is also useful (right-click - Merge down or Merge layers).
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

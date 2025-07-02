@@ -1,0 +1,12 @@
+| | | | | | 
+January 21, 2020
+# Compress PDF Online For Free
+We often receive PDF files, which are too big (scanned documents etc.). Such quality may not be necessary for regular usage. They can be easily compressed online in seconds.
+We will compress our PDF with . Open Photopea and press **File - Open** , to open your PDF. Photopea can work with PDFs with up to 30 pages.
+When the PDF is loaded, press **File - Export As - PDF**. A window will appear. You can see a final file size at the bottom left corner.
+Enable **rasterize all** in the export options. Now, decrease the **Quality** , until the file size reaches the required value. Zoom in at the preview to see, if the quality is still acceptable. When you are done, press Save to get a PDF file. That's all! :)
+## Custom DPI
+The process above converts each page into a raster image. Each letter becomes e.g. 30 pixels tall. You might want to improve quality (e.g. make a letter 60 px tall), or compress even more (make a letter just 15 px tall). Here is how to do it.
+After opening your PDF in Photopea, press Image - Image Size, enter a smaller width / height (or switch to percents) and confirm with OK. Now, proceed with exporting: File - Export As - PDF.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,16 @@
+| | | | | | 
+November 11, 2022
+# Use Stable Diffusion for free in Photopea
+Text-to-image converters are becoming more and more popular. We have many different "AI models", i.e. programs, which can create an image based on your text description. But they are often huge (gigabytes of data) and might reuqire an expensive machine to run.
+You can use these tools for free inside Photopea.com! Open and press **Window - More - Text To Image**. Now, whenever you open a photo, there will be a button "StD" on the right side, which opens the window of this tool.
+## Inpainting
+You can let this method fill the missing areas of your photo. E.g. a picture of an eye:
+It can be done using . Just add a mask to your layer and paint the unknown areas with black. Then, enable "Inpaint the masked area", and run the method. .
+  * Non-square layers will be filled it with black on the side.
+  * The result will be as large your layer. To make a new content around a tiny image, make a larger fully white layer below, and merge it with your image.
+
+
+## Limitations
+We cooperate with different providers of text-to-image service. As we need to pay them, we encourage you to get your own API Key and paste it into Photopea. Usually, you can get hundreds credits for free. Press the "API Key" button in the Text To Image plugin to learn more.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

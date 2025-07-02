@@ -1,0 +1,25 @@
+| | | | | | 
+February 25, 2021
+# Ads in Photopea don’t work
+To offer Photopea to everyone free of charge, we monetize it with ads. Throughout the years, ads have been the main source of our income, and Photopea would not exist today without them.
+When you visit Photopea.com, one of two things can happen:
+  * A message **"Ad blocking detected"** at the top right corner - you are blocking ads. You might see links to some games, these "ads" don't make us any money.
+  * **Regular ads are displayed** - everything is ok
+
+
+Once you stop blocking ads, **reload Photopea** (as we check for ad blocking only once at the beginning).
+## How am I blocking ads?
+Usually, ads are removed by **browser extensions**. It is a program, which goes through all words and images on every website that you visit, and can modify them, before they are displayed to you. Extensions can remove ads, insert their own ads, or even replace the original ads with some inappropriate ads.
+Here is how you can see your extensions:
+  * open `about://extensions` in Chrome, Edge or Opera
+  * open `about:addons` in Firefox
+  * press `Safari > Safari Extensions` in Safari
+
+
+**You disabled all extensions with "ad" and "block" in their names, but there are still no ads?** Some extensions could still be blocking ads. Try to disable all extensions and see if it helps. Later, you can enable them back, one by one, until you find the one which is blocking ads.
+This extension is known for blocking ads: . What extension was blocking ads in your case? Let us know ! The is known for being active even if you disable it for a specific website. On the other hand, AdBlock Plus or uBlock Origin can be fully disabled for a specific website.
+If you don't remember installing any extensions, they were probably installed by someone else (by a person or by a virus). Some of them could be dangerous. We recommend deleting all extensions which you are not aware of installing, even if they are named "Facebook" etc.
+## Brave browser
+According to our research, you should put down the Shields in Brave to see ads. Click the orange "lion icon" at the top to put down the shields.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

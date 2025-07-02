@@ -1,0 +1,17 @@
+| | | | | | 
+### Topics
+# Selections
+In this part, we will focus at regular layers with raster images (pixel data). There are many tools to edit pixel data (Brush, Eraser, adjustments, filters). But we often don't want to edit the whole layer, but just some part of it.
+The selection defines a set of pixels, that are "selected" and can be edited by tools. Precisely, it is a "map" over the whole image, which gives each pixel the value between 0 % and 100 %. This value says, how much color of the pixel can be changed, and how much should be preserved. Selections are not bound to layers (as masks), but there is just one selection for the whole document, which is used for every layer that you work with.
+For example, Photopea has the Fill operation (Edit - Fill). By default, it will fill the whole layer with a foreground color. Once you have a selection, it will fill only the selected area with that color.
+While masks are visualized with the white and the black color (in their thumbnails), selections are visualized right in the main area of the document with the **contour** , that is drawn between selected and unselected areas. We can say, that operations are applied **inside** the selection, and not outside of it. Here you can see an example of the selection, and the result, when you draw on top of it with a Brush tool.
+## Working with Selections
+Once you have a selection, there are several basic operations for changing it. The basic operation is **inverting** the selection - it will select unselected pixels and unselect selected pixels (available in Select - Inverse).
+You can **expand** the selection by several pixels (i.e. add pixels close to the selection into the selection), **contract** it by several pixels (the opposite operation to expanding), or **feather** - apply a blur to the selection, to make a smooth transition between 0 % areas and 100 % areas. All this is available at Select - Modify - Expand / Contract / Feather.
+You can move the selection by clicking inside it and dragging it (with any Selection tool, e.g. with a Lasso tool). You can transform the selection (e.g. rotate it, or make it larger, while having the same shape) using **Select - Transform Selection**. 
+Deselection (removing the selection) is possible through Select - Deselect (or Ctrl + D).
+## Quick Mask Mode
+There is a special button at the end of a toolbar, which enables a **Quick Mask Mode** (you can also press Q). When you press it, the current selection is converted into a quick mask (a special red image), which is on top of all other layers. All editing, that you do (e.g. painting or erasing), is applied to that quick mask (document layers are not editable). It allows you to edit the selection with regular pixel editing tools.
+When you are done editing the quick mask, press the same button again, to turn it back into a selection. When you save your document as a PSD, which is in a Quick Mask mode, it remains in a Quick Mask mode after opening it again.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

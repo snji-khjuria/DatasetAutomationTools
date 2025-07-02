@@ -1,0 +1,9 @@
+| | | | | | 
+August 19, 2024
+# Single-click background removal
+Photopea can remove background of a photo with a single click. How can we do it?
+Open and press File - Open, to open your photo.
+Now, click Select - **Remove BG** , and see the magic happen!
+Now, just click File - Export As - PNG, and save it as a PNG file to your computer :)
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,25 @@
+| | | | | | 
+### Topics
+# Shape manipulation
+To work with a shape, first, we should select the shape in the Layers panel. We can either click on the thumbnail of a vector mask, or a thumbnail of a Shape layer. We will see the outlines of paths after that.
+## Path select
+Path select allows us to manupulate paths within a shape. Click on the path to select it, or hold Shift to select multiple paths.
+When one or more paths are selected, we can:
+  * move them with a mouse or cursor keys
+  * delete them by pressing Delete
+  * Cut / Copy / Paste paths using Edit - Cut / Copy / Paste (or Ctrl + X / C / V), even between different layers or different PSDs
+  * apply Free Transform (Edit - Free Transform)
+
+
+We can also change the **boolean operation** (Subtract, Intersect ...) of each path in the top menu, or reorder paths with the Up and Down button. The drop-down menu also contains the **Merge** option, which will merge all paths into a single path. In case of the Shape layer, the top menu allows us to change the fill and the stroke of the shape.
+## Direct select
+Direct select allows us to manupulate knots within a shape. Click on the outline of the path to see the knots. Then click on a knot, or hold Shift to select multiple knots. We can even select separate knots from different paths.
+When one or more knots are selected, we can:
+  * move them with a mouse or cursor keys
+  * delete them by pressing Delete
+  * move the anchor or handles of a knot
+
+
+Double-clicking the handle will collapse it. When a handle is collapsed, double-clicking the anchor will give it back. Otherwise, double-clicking the anchor will convert the Linked (Smooth) knot to Unlinked (Corner) knot and vice versa.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

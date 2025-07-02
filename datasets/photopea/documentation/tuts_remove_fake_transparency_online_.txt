@@ -1,0 +1,9 @@
+| | | | | | 
+June 2, 2021
+# Remove Fake Transparent Background
+There are many images with a fake transparency (white / grey checkerboard) in them. They are often **JPG** , or even **PNG** with no true transparency. It is very easy to get rid of that checkerboard pattern!
+Go to , press File > Open, and open your image. Then, press Select > Magic Cut. You will see your image, and a final version next to it (if it is incorrect, look at our ).
+Confirm it with the "OK" button. Now, hit File - Export As - PNG, and you are done :)
+Here is a GIF version.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

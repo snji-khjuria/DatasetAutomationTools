@@ -1,0 +1,16 @@
+| | | | | | 
+### Topics
+# Slices
+Slices define rectangular areas on top of our document. We can export such document with a single click, and each slice becomes a separate image file, such as PNG or JPG.
+Multiple slices (rectangles) can be present in a document. With at least one slice, Photopea will display slices on top of the document (just like guides or the grid are displayed). We can hide them by pressing View - Slices.
+Photopea automatically adds **auto slices** (displayed in grey), to make sure each part of the document belongs to exactly one slice. Auto slices are updated while we create or move our own slices (displayed in blue). 
+Here is a document with two slices (labeled as 3 and 4). Three auto slices were added by Photopea.
+## Slice Tool
+New slices can be added with a **Slice tool**. Simply press the mouse at any point in the document, drag the mouse, and release it, to draw a rectangle. The mouse is usually snapped to document boundaries, guides, grid, or to other slices, depending on the current settings.
+## Slice Select Tool
+**Slice Select Tool** allows us select a slice by clicking on it (or select multiple by holding Shift). Then, we can move selected slices with a mouse or cursor keys, or delete them with a Delete key.
+Selected slices have little squares on their corners and edges. We can click them to resize slices. The mouse also snaps to guides or other slices while resizing.
+## Export Slices
+When there is at least one slice in a document, and we try to expor it as PNG, JPG or GIF (File - Export As - PNG ...), Photopea will export a ZIP archive. The archive contains an image for each slice in the document. It also contains a HTML file, which can be used as a website for our project.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

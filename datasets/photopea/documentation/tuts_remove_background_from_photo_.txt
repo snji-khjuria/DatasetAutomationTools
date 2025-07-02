@@ -1,0 +1,21 @@
+| | | | | | 
+May 30, 2018
+# Remove Background From Photo
+Cut out an object from a photo, so you can place it elsewhere, or give it another background.
+*** You can also try our .
+Go to to start a free online photo editor. If you see a Welcome Screen, you can close it by pressing the Cross in the top right corner.
+Open a photo from your computer: click File - Open (in the top left corner), then find and select the file in your device (or use ).
+We have to do two steps: **Select Background** (the hard part) and **Delete selected area**.
+## Select Background
+Photopea lets you select some part of the image. This selected area is illustrated by a countour around it.
+We will demonstrate our work on , where we want to remove the sky. Properly selected sky will look like this:
+We will select the bacgkround with a Magic Wand tool. It can select an area with similar colors (blue in our case). First, select Magic Wand in the toolbar on the left (two tools are hidden under the same button).
+Now, click on the sky area to select it. Each click removes the old selection, and creates a new one. **Hold Shift** to combine the new selection with an old selection. Try changing the Tolerance and Contiguous in the top menu. You should end up with a selected sky, as you see above.
+Selecting may be hard, it can take 10 seconds, or even several hours. The more time you spend, the more prefect it becomes. Read more about selections at and its sub-articles.
+## Delete selected area
+To delete a selected area, press Edit - Clear in the top menu, or Delete on your keyboard (if the layer is a Smart Object, press Layer - Rasterize first). The white and grey squares mean, that the area is empty.
+Now, save the image as PNG (File - Export As - PNG, hit "Save"). PNG is necessary, because JPG does not support transparent pixels.
+## Add a new background
+To add a new background press **File - Open & Place**. The image, that you choose, will be placed as a new layer. Now, you can move the background image and resize it (by dragging its corners) and confirm the size by hitting Enter. If the new layer covers the original image, press Layer (in the top Menu) - Arrange - **Send to Back** to move your layer behind all other layers.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

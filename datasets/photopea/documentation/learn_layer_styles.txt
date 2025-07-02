@@ -1,0 +1,16 @@
+| | | | | | 
+### Topics
+# Layer Styles
+Designers often need to add some "common" effect to an image, such as **stroke** , **drop shadow** or **outer glow**. Creating such effects manually (e.g. drawing the stroke with a Brush tool) can be hard. And once you change the image, the effect has to be redrawn manually again.
+Photopea can add such effects automatically for you through **Layer Styles** (also called Layer Effects). Each layer (a regular layer, a text layer, even a folder) can have a list of styles attached to it. Each style has a large set of parameters (e.g. for a Stroke, it is the thickness, the color, the opacity etc.). These styles are redrawn automatically, when the layer is modified. You can also change their parameters or disable them at any time. Styles do not modify the content of the layer, but they are added automatically to the final image.
+When a layer has styles applied to it, you can see the list of its styles in the Layers panel, right under that layer. The list of styles can be folded and unfolded using the arrow on the right side. Each applied style can be enabled or disabled using the eye icon.
+## Add Styles
+Styles are added and managed inside the **Layer Styles** window. Double-click the layer to see that window, or right-click the layer and choose Blending Options.
+You can see all available layer styles (effects) in the left part of the Layer Styles window. Click the checkbox of each style to enable it (or to disable it). When you click the name of that style, style parameters will be opened in the center.
+Once you are done with editing layer styles, you can confirm your changes by clicking the OK button in the right part of the window.
+## Delete Styles
+To delete styles, right-click the layer and choose Layer Style - Clear, or drag-and-drop a style item to the garbage icon (bottom right corner of the Layers panel).
+## Load and save Styles
+Photopea lets you load and save styles. Click "Define New" to add a current style to a style gallery. Click the style thumbnail (under the "Define New" button) to open a style gallery. Now, you can select a style, that you want to apply to a layer. You can also click the little arrow next to a gallery, and export current styles (or open existing styles) as .ASL file.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

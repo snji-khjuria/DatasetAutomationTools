@@ -1,0 +1,9 @@
+| | | | | | 
+April 11, 2023
+# Bulk Generate Mockups From a PSD
+Do you have a PSD with a mockup, and you want to generate 5, 50 or even 500 versions of it? It is very simple to do!
+It can be done for free inside Photopea.com! Open and load your PSD file (File - Open). It must contain at least one smart object (if there are several, select the right one in the Layers panel). Now, press **File - Automate - Generate Mockups**.
+Click "Source Images" and select images from your computer, which you want to be used in the smart object. You can also choose the output format, such as PNG, JPG, etc. Now, just click "Generate" and wait! Once Photopea is done, you can download a ZIP archive with your files.
+The process can take 0.1 to 1 seconds per image. Note, that your data is not uploaded anywhere, as Photopea runs on your computer.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

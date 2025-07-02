@@ -1,0 +1,12 @@
+| | | | | | 
+June 18, 2022
+# Generate NFT Combinations Online
+To make multiple NFTs, you can either create each one from scratch, or make them by combining various elements together. It it can be done easily online, you can use an existing PSD file.
+## Structure
+Start by going to and make a new document (File - New). Set the dimensions of your images (e.g. 1024 x 1024). The Layers panel is on the right, where we need to make layers. 
+Make , which represent groups of objects (e.g. Head, Eyes, Mouth). It is necessary to fill each folder with elements. Either create a new layer and paint into it, or load graphics from your device (File - Open and Place). At the end, you might have a structure like this:
+An item inside a group (e.g. a head inside the "Head" folder) can be a layer, but it can be a folder of layers, too (still counts as one item). Or it can be an Adjustment Layer (e.g. Hue/ Saturation, to generate images with a different Hue shift).
+## Export NFT
+Once your layers are ready, press File - Export Layers, and choose "Combinations" at the top. This tool will look for all folders and elements in them, and will gradually turn off and on each layer, to create all possible combinations. If you have six bodies, five hats and three glasses, you can make 90 combinations. Click "Export Layers" and save a ZIP archive with the images to your computer! :)
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

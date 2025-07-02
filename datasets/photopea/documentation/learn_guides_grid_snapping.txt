@@ -1,0 +1,20 @@
+| | | | | | 
+### Topics
+# Guides, Grid and Snapping
+Precise position of image elements can be very important. The basic tool, which can help us align image elements, are **rulers**. Rulers can be enabled in View - Rulers. But there are several other ways how to align elements precisely.
+## Guides
+There can be multiple guides in a PSD document. A guide is a horizontal or a vertical line, which is displayed over the document and can help you align elements. 
+To add or delete a guide, select the Move tool and enable rulers. To add a guide, click on the ruler and drag the mouse into the document. To delete a guide, click on it and drag it onto the ruler.
+To move existing guides, click on them with a Move tool and drag them to a new location.
+## Grid
+Designers often need to place some elements regularly, with an equal distance between them. Instead of adding many guides with the same spaces between them, we can use the **grid**. A regular grid will be displayed over your document, which can help you align other elements.
+## Pixel Grid
+The Pixel Grid draws a grid with one pixel gap. It is visible only after zooming in close enough. When an image area has a constant color, the Pixel Grid helps you see the borders between pixels (can be useful for pixel art).
+Guides, Grid or Pixel Grid can be enabled or disabled using View - Show - Guides, Grid or Pixel Grid. There is the main switch: View - Extras, which can disable them all at once. The size of the grid can be changed in Edit - Preferences. Note, that guides are related to a specific document and can be different in each document, while the same grid is displayed over all documents.
+## Snapping
+Placing elements precisely on the guide (or on the grid) can be hard. We may need to zoom in and move the object several times, until it is on the right spot.
+**Snapping** can solve this problem. Whenever your object is near the guide (e.g. closer than 5 pixels), it is "snapped" to that guide, i.e. its location is set to the location of that guide. You don't have to be so precise, Photopea finds the nearest guide and moves the object for you.
+Snapping can be enabled or disabled using View - Snap. You can snap to different things, such as guides, grid, document bounds etc. (take a look into View - Snap To). But with snapping, you are less flexible, e.g. when you want to place an object close to the guide, but not exactly on it. It is useful to disable snapping in such cases.
+Snapping can be used with all tools, where you would expect it: Move tool, Free Transform, Crop tool, selections, tools for editing vector graphics etc.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

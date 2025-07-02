@@ -1,0 +1,18 @@
+| | | | | | 
+February 24, 2019
+# Prepare Graphics for Printing
+Printing companies may ask you to prepare graphics in a specific format. In this guide, we will show you how to do it quickly and easily with Photopea.
+is an advanced graphic editor, which works on any device in a web browser. You can open and edit existing graphics (PSD, PDF, AI, Corel Draw file). You can even create your graphics from scratch in Photopea.
+Let's have a look at some common requests, which you may get from printing companies.
+## Set the Correct DPI
+To change the Image Size or the DPI of your document, press "Image" - "Image Size" at the Top Menu. Now, choose the units of the size (inches or millimeters).
+Enter the required width and height in inches (or millimeters), and the right DPI value (e.g. the Width of 10 inches, the height of 15 inches, and the DPI of 300). After that, press OK.
+## Set the CMYK mode
+Requesting CMYK mode was very common in 70s and 80s. There existed only a few brands of printers, which used a very similar ink. Color Profiles were invented in 90s, which define a precise standard for color management. Since then, requesting a "CMYK mode" (without supplying a specific ICC profile - .ICC file) does not make any sense, as there exist thousands of CMYK spaces.
+Photopea stores all files in sRGB space at the moment. Modern printers (which do not come from 70s or 80s) should be able to handle any color profile (i.e. any PDF file). .
+## Export as PDF
+Press File - Export As - PDF for the basic export dialog. For the best results, check **Rasterize All** and hit Save. You can be sure, that the printed document will look exactly as you see it in Photopea. But it won't be possible to edit such PDF with any PDF editor (but editing PDF is needed very rarely). This approach corresponds to the PDF export of Adobe Photoshop.
+To get a smaller and editable PDF file, disable Rasterize All, and enable Vectorize Text. In such case, the PDF will be smaller, but some effects may disappear (drop shadows, smart filters, warping of Smart Objects, etc.). So make sure that such effects are not present in your work, and the PDF preview looks correctly.
+To get the smallest PDF files, disable all checkboxes. The result is similar to the previous approach (some effects may disappear), but also, all text will be rendered with a Times font. This approach is perfectly fine for documents without text and without special effects.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

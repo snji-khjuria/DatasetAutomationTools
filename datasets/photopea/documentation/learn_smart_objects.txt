@@ -1,0 +1,17 @@
+| | | | | | 
+### Topics
+# Smart Objects
+Designers often need to place several copies of the same object into the document (e.g. when you want to add multiple snowflakes on the sky). It can be done by creating the first object and then duplicating it (and moving copies to the right place).
+There is a disadvantage in such approach. When you need to modify the object, you will need to modify each copy of the object separately.
+## Single Source
+PSD format offers a better solution for dealing with many copies of the same object. The single source of the image data is created in the background (e.g. the PNG image of the snowflake), and each snowflake layer is linked to this single source. Once the source is changed, all layers, that are linked to it, are automatically updated. Such layers are called **Smart Objects**. A Smart Object is a type of a layer.
+Smart Objects may be linked to the same source, but they don't have to look completely the same. Smart Objects can have different positions and transformations (rotation, scale etc.). And since they are different layers, they can have different opacity and the layer style.
+Smart Objects have another advantage. When you have a regular layer, 100 x 100 pixels, and you scale it down to 10 x 10 pixels, and then back to 100 x 100 pixels, some image information will be lost. The Smart Object would have the image information (100 x 100 px image) stored in the background, so after scaling it down and up again, the new image can be recalculated from the source, which never lost any data. It allows us to do **nondestructive editing**.
+## Working with smart objects
+You can convert any layer (or several layers) to a Smart Object by selecting them and right-click - Convert to Smart Object. Selected layers will be removed and inserted into a new PSD file, which will become the source of a new Smart Object, that will be added to the document.
+Smart Object layers have a little sign in the bottom-right corner of the thumbnail.
+Double-click the thumbnail of the smart object to edit its source. It will be opened as a separate document. When you finish editing the source, press File - Save. All Smart Objects, that are linked to that source, will be updated in the original document. Duplicating the smart object would create new Smart Objects, that are still linked to the same source.
+Let's return to our initial case. We can solve it by drawing a snowflake and converting it to the Smart Object. Then, we can duplicate that Smart Object and move copies to different places on the sky. Once we need to change the snowflake, we simply double-click any thumbnail of a snowflake, change the source and save it. All snowflakes will be updated.
+can be applied to a smart object.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

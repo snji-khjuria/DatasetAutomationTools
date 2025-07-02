@@ -1,0 +1,12 @@
+| | | | | | 
+August 20, 2024
+# Convert HEIC to JPG online including metadata
+Many Apple devices store photos as HEIC files. However, HEIC is not a free format and not every software can open it. How to turn your HEIC files to JPEG?
+Open and press File - Open, to load your file. You should see your image in front of you. If you want, you can read or edit the metadata by pressing File - File Info.
+Now, just press File - Export As - JPG, enable "attach metadata", and press Save to save it as a JPG file to your device. And that's it!
+Note, that Photopea runs locally: your image is not uploaded to some server, but the HEIC to JPG converter is downloaded and runs in your browser as a part of a website.
+### Batch convert many HEIC files
+To convert many HEIC files to JPG, open Photopea and press File - Automate - Convert Formats. Select multiple HEIC files from your computer.
+Set the outpu format to JPG and press "Convert Images". In a few moments, you can save a ZIP archive with JPG files to your computer :)
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

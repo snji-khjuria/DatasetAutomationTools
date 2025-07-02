@@ -1,0 +1,15 @@
+| | | | | | 
+May 20, 2020
+# Stitch Images Together Online
+Did you take multiple photos and want to combine them into a panorama? Or you scanned parts of a picture and want to reconstruct the whole image? It can be done easily online!
+We will stich our images online in a photo editor . Once you are there, press File - Open, select all images from your computer and open them. They will be displayed in Photopea as separate documents. You can switch between documents by clicking the labels at the top.
+## Put everything into one document
+Now, we need to put all images into a single document (e.g. the first one). Switch to a second document, press Ctrl+A (or Select - All) to select all. Press Ctrl+C (or Edit - Copy) to copy, switch to the first document, and press Ctrl+V (or Edit - Paste) to paste. Copy images from other documents in the same way. The first document will contain each image as a separate layer (the list of layers is on the right side of Photopea).
+## Align layers
+We need to select all layers. Look at the Layers panel on the right side. Click the bottom-most layer, hold Shift, and click the top-most layer. Selected layers are highlighted. Press Edit - **Auto-Align** to make Photopea align images with each other. The bottom-most image will stand still, while other images will be moved, rotated and scaled, to create a final result.
+## Fix edges between images
+Once the images are moved and rotated, we can still see differences at places, where two images meet. While all images are still selected, press Edit - Auto-Blend.
+Another way is to use the Eraser tool. Press E to switch to the Eraser. Right-click the image and increase the Size and decrease the Hardness of the brush. Click a layer you want to work with (in the Layers panel) and erase the unwanted areas by painting over them.
+Now, save your image by pressing File - Export As - JPG. Done! :)
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

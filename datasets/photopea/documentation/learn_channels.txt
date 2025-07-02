@@ -1,0 +1,19 @@
+| | | | | | 
+### Topics
+# Channels
+A channel is a **raster image** , containing **one value per each pixel**. A single channel is often rendered as a grayscale image (small values as blacks, large values as whites).
+A color image consists of four channels: values of Red, of Green and of Blue and transparency values. A can also be viewed as a channel. In addition, Photopea lets you create your own, independent channels.
+## Channels Window
+You can work with channels in the Channels window (press Window - Channels). The list contains the Red, Green and Blue channels of the image, masks of a current layer, and independent channels.
+You can hide or unhide each channel with the eye icon. When only one channel is enabled, it is rendered as a grayscale image. When multiple channels are enabled, non-RGB channels are rendered as a "red mask" (black as red, white as transparent) over the RGB image.
+A useful feature in the Layers panel:
+  * Alt+click a layer mask to enable it and turn off other channels ("grayscale view")
+  * Alt+Shift+click a layer mask to enable it together with other channels ("red mask view")
+
+
+The simply turns a selection into an independent channel, that is enabled toghether with color channels.
+## Working with channels
+Click any channel to select it. All editing (e.g. painting, adjustments, filters ...) will be applied only to that channel (e.g. a blue channel of a current layer, a raster mask, or an independent channel).
+Icons at the bottom allow you to turn a current channel into a selection, create an independent channel from a current selection. You can also create an empty channel (all black), or delete a current channel. You can double-click the name of an independent channel to rename it.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

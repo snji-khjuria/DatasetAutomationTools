@@ -1,0 +1,14 @@
+| | | | | | 
+### Topics
+# Basic Tools
+In previous chapter, we learned, that each brush tool creates some stroke. This stroke can be combined with an existing layer in many ways.
+## Brush
+Brush tool is a basic artistic tool. It lets us draw strokes with a foreground color onto an existing layer. At the top menu, we can choose the blend mode and the opacity of our strokes.
+## Pencil
+Pencil is very similar to the Brush tool, but it creates sharp edges. Below, you can see the zoomed-in line drawn with the **Brush (on the left)** and with the **Pencil (on the right)**.
+## Eraser
+Eraser tool erases the pixels from an existing layer. We can change the opacity at the top menu, so the pixels will remain partially visible.
+## Clone Stamp
+Clone stamp lets us copy the content from one part of the layer into another part. First, we hold the Alt key and click on the layer, to choose the source of cloning. Then we simply draw strokes in another part, which are filled with the content from the source part. Decrease the Hardness of a brush, so that new strokes have smooth edges, to make a smooth transition between the old and the new content.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

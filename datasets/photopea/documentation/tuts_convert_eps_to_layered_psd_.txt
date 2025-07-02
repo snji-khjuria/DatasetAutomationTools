@@ -1,0 +1,13 @@
+| | | | | | 
+May 7, 2019
+# Convert EPS to layered PSD
+There are many of EPS files all around the web. They usually come from Adobe Illustrator, but can be generated from other software, too. Let's see, how can we convert them to a layered PSD.
+We will convert the EPS to PSD using online editor. Open it and press File - Open, and select your file. Once the file is loaded, press File - Save as PSD, and it's done! :)
+## Errors when loading EPS
+You may see errors, when opening EPS in Photopea. In such case, we recommend to convert the EPS into a PDF (e.g. using ), and open the PDF in Photopea.
+EPS and PDF are very similar formats. Actually, PDF is an "upgrade" of EPS (PDF can contain everything that EPS can + something more). None of them can store e.g. layer structure and layer names, or a drop shadow effect (drop shadows must be stored as bitmaps).
+Adobe Illustrator has a special **AIDataStream** format, which stores the information about its document (including layer structure, parameters of a drop shadow, etc). Only Adobe Illustrator can read the AIDataStream files.
+Adobe Illustrator **injects** AIDataStream files into EPS or PDF files. EPS and PDF readers skip this sub-file when processing EPS / PDF, and read only a valid EPS / PDF content. But when you open such EPS / PDF with injected AIDataStream in Adobe Illustrator, it will ignore the actual EPS / PDF content, and will read only the AIDataStream sub-file.
+Currently, Photopea can not read the **AIDataStream** format. By converting EPS to PDF, you lose a possible injected **AIDataStream** sub-file, but it would be ignored by Photopea anyway.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

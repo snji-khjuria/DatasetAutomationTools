@@ -1,0 +1,25 @@
+| | | | | | 
+### Topics
+# Blur Gallery Filter
+Standard blurring methods allow us to apply the same kind of blur to the whole image. But what if we want to have a different blur at each part of the image?
+The **Blur Gallery Filter** allows us to put several control points on top of our image. Then, the blur will be generated according to these points and other parameters. We will use the following image to demonstrate our blurs.
+## User Interface
+There are **five types** of blur in the blur gallery. You can add any number of blurs of each type.
+Press Filter - Blur Gallery - Field Blur. The interface looks like a special tool, where you can work with the blurs using a mouse. The top menu allows you to select a blur type that you want to work with.
+We chose the "Field Blur" at the beginning, so the tool will start with the "Field Blur" type, and a single blur of this type will be added to the center of the image. 
+Each blur type has **its own switch** to activate or deactivate all blurs of this type. You can see the control points of the blur over your image. Select and move them with your mouse, or press the Delete key to delete a selected item.
+You can see more parameters of the selected blur at the top menu. When you are happy with your blur, confirm the filter also using the top menu.
+## Blur Types
+There are five blur types in the Blur Gallery.
+### Field Blur
+This is just a single point with a specific blur value. Make several points with different blur values to create the advanced blur.
+### Iris Blur
+Here, you can draw an ellipse over your image. The blur will be zero at the center of the ellipse, and will gradually grow to a specific value, towards the contour of the ellipse. Just like with all blur types, you can add any number them.
+### Tilt-Shift
+Create a central axis with over your image (horizontal in this case). The blur will be zero on this axis, and will grow outwards, according to the control points.
+### Path Blur
+Create line segments over the image (blue). Each segment has a control point at the beginning and at the end (white arrows). Each control point can have its own direction and length (speed). You can also edit the total speed of the Path Blur at the top menu.
+### Spin Blur
+Create ellipses over your image. Pixels inside the ellipse will be spineed around, to create the effect of a rotation.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,23 @@
+| | | | | | 
+January 20, 2024
+# Install Photopea to your device
+Installing Photopea to your device offers many advantages. Give it a try! :)
+## How to install Photopea
+To install Photopea to your device, click "More" at the top, and then, "Install Photopea".
+## What it actually does?
+In short, it places an icon on your homescreen, and this icon will start Photopea in a **special browser mode** with a reduced browser interface. So, "less browser, more Photopea".
+Photopea will still run in your web browser (if you uninstall the browesr, Installed Photopea will not work). All your browser extensions will be running, too. A browser still decides, what the installed Photopea can or can not do.
+There are a few other interesting features, which you get:
+  * double-click PSD files on your device to edit them in Photopea
+  * some browsers allow us to use Ctrl+T, Ctrl+W and other shortcuts, which we can't use in a regular browser mode
+
+
+## The Install option is not available
+When you open Photopea.com, we wait for a browser to send us a message, saying that it is ready to install Photopea. Only then, we activate the button "Install Photopea". If we don't receive this message, the button is never activated.
+There could be two reasons why the browser doesn't send us this message:
+  * It is not supported by your browser. See the .
+  * Photopea is already installed (but you just deleted the homescreen icon). For Chrome, open `chrome://apps` to see installed websites. Right-click Photopea and uninstall it. Then, the "Install Photopea" option should be available again.
+
+
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

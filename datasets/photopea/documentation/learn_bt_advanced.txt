@@ -1,0 +1,14 @@
+| | | | | | 
+### Topics
+# Advanced Tools
+These tools perform advanced effects on the layer.
+##  Blur and Sharpen
+These tools simply blur or sharpen the content of the layer under the stroke. You can change the Strength of the effect at the top menu.
+##  Dodge and Burn
+Dodge makes the colors lighter, while Burn makes the colors darker. You can choose the range, to which the effect should be applied (Shadows / Midtones / Highlights) and the strength (Exposure).
+## Smudge
+The Smudge tool is probably the most advanced these tools. It is the analogy of moving your finger across the wet paint on the painting. You can spread colors to other areas, make object longer or shorter, or move the border between two objects.
+## Sponge
+The Sponge tool can be used to saturate or desaturate parts of the layer (make pixels more "alive").
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

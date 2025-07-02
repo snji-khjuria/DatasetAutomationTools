@@ -1,0 +1,20 @@
+| | | | | | 
+February 13, 2019
+# Retouch and Enhance Face Online
+We may want to improve our photos from time to time. Improve the skin, fix the hairstyle, make some parts bigger and others smaller :) You can do it on your computer for free!
+## Open The Photo
+We will use a free online photo editor . Once you are there, press File - Open, and choose the right photo from your computer. We will use (who already looks perfect) to demonstrate our work.
+## Fix The Skin
+You can fix spots or scars on the skin with a **Spot Healing Brush**. Select it in the toolbar on the left.
+Now, simply click on the skin and see, how the spot disappears. You can increase the Brush Size in the top left corner, or paint even larger area with your mouse. This way, you can remove earings, piercing, tattoos, hair over the face etc.
+## Change The Shape
+The **Liquify** tool lets you enlarge, shrink or move parts of the image, while they still look connected to the surrounding. Start the tool by clicking **Filter - Liquify**.
+Always set the correct brush **Size** on the right side, so that it corresponds to the object you are working with. Several tools are available in the toolbar on the left.
+The **Smudge Tool** lets you move parts of the image. Simply click and drag the part, that you want to move. You can move eyes, the nose or the mouth to a different location. Move the edges of a mouth to create a happy or a sad face. You can move the edge of the chin, the side of the neck, move your hair, ears, breast etc.
+The **Shrink Tool** and the **Expand Tool** let you shrink and expand parts of the image. Simply click and hold, until the area gets to the right size.
+The Liquify method "builds a new face from parts of the original face". Use it as an experiment and for fun. Once you are done, hit **OK** on the right side.
+## Save the Image
+To save the image, press File - Export As - JPG, then hit **Save**.
+Be careful! It is very easy to make yourself look unnatural. Use this tool modestly. We are all perfect in our own way. There are lots of people around us, who like us exactly the way we are.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

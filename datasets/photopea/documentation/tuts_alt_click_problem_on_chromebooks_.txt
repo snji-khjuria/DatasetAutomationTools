@@ -1,0 +1,10 @@
+| | | | | | 
+December 15, 2021
+# Alt + Click problem on Chromebooks
+When you hold Alt and click in Photopea on a Chromebook, it never works. What should we do?
+There is a bug in Chrome OS with a long history. If you hold the Alt key and click (with a touchpad or a mouse), it acts as a right-click. Lots of people were complaining about it (e.g. ) in the last 10 years, but Google still refuses to fix it. Because of this, **we consider Chrome OS devices to be really bad for running advanced webapps** (Windows or Mac OS are much better). It is almost as if you could not type capital letters on your computer.
+Image editors use Alt+click for various tasks. E.g. picking a pixel color with a Brush tool, or setting a source point for a Clone Stamp. It is necessary for drawing sharp corners with the Pen tool (e.g. in Photopea, Adobe Illustrator, Inkscape, Corel Draw, ...). None of this can be done in Photopea on a Chromebook.
+## Solution
+There exists a solution, which requires going deep into advanced settings. Open `chrome://flags` in your Chromebook, and enable the feature **Use Search+Click for right click**. Now, Search+Click will work as a right click, and Alt+Click will work as it works on all other computers.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,11 @@
+| | | | | | 
+April 20, 2025
+# Opening files is blocked on some Android phones
+Some Android devices had an update, which does not allow Photopea to open files from the "downloads" folder. It is known to happen on these devices: Xiaomi, Samsung S24, Samsung Galaxy Tab S6 Lite.
+## Solutions
+  * Keep your files in some different folder, which is not named "downloads".
+  * Load files by pressing File - Open More - From Any Folder.
+
+
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,20 @@
+| | | | | | 
+August 19, 2024
+# Blur the image background online
+How to blur the background of a photo, while keeping the subject sharp?
+Open and press File - Open, to open your photo.
+We need to draw a selection line around the subject. It can be done with the Lasso tool, but there is a faster way: Press Select - Subject! When the subject is selected, press Select - Inverse, to "select the opposite".
+Now, when the background is selected, press Filter - Blur - Gaussian Blur, and choose the value of a blur.
+Confirm the blur by pressing "OK". Now, just click File - Export As - JPG, and save it to your device :)
+## Even better blur
+We can get an even better effect! See how.
+### Separate the subject into a new layer
+Open your photo in Photopea and press Select - Subject. Now, press Layer - New - Layer Via Copy, to put the subject into a separate layer on top (see "Layers" at the bottom right corner of your screen). Hide the new subject layer ("eye button") and select the original, bottom layer.
+### Remove the subject and blur the background
+With the original layer selected, press Select - Subject, and then, press Select - Modify - Expand, set it to 5px. Now, press Edit - Fill - Content Aware, to "remove" the subject. Now, press Select - Deselect.
+Press Filter - Blur - Gaussian Blur, and set the blur amount. Confirm by pressing "OK".
+Pro tip: Use the to apply a different amount of blur to each part of the background.
+### Place the subject on top
+Now, unhide the top layer with a sbuject. Press File - Export As - JPG, and save it to your device :)
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

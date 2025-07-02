@@ -1,0 +1,14 @@
+| | | | | | 
+### Topics
+# Adjustments and Filters
+Modifying colors and adding color effects is the essential operation of photo editing. Such operations are separated into two groups in Photopea: **Adjustments** and **Filters**.
+## Adjustments
+Adjustments work **only with the color**. I.e. if some pixel is changed from the color A to the new color B, all pixels with the color A will be changed to the color B in the whole image. That is true for changing the brightness, saturation, inverting colors etc.
+Adjustments can be applied by clicking Image - Adjustments in the top menu. Some of them have a keyboard shortcut (e.g. Ctrl + L for Levels, Ctrl + M for curves, Ctrl + U for Hue / Saturation). Adjustments also can be applied in the form of .
+## Filters
+On the other hand, in case of Filters, pixels having the same color can be changed to different colors, as in the blur filter. When the black pixel is surrounded by white pixels, it will become white after blurring. But if the black pixel is surrounded by black pixels, it will remain black after blurring.
+Filters can be applied by clicking Filters in the top menu, choosing the categoriy of filters and then choosing a specific filter.
+Both Adjustments and Filters can be applied to regular layers (i.e. you can not blur the text layer or a pattern fill layer, you would need to rasterize them first). There is a special way of applying adjustments and filters to Smart Objects called **Smart Filters**. As you apply adjustments or filters to a Smart Object, they are stacked into a list under the layer (similar to Layer Styles).
+The source image of the Smart Object is stored separately, so the list of filters can be reapplied and recalculated at any time. You can enable or disable any smart filter in the list at any time, or change its parameters. We can call it **nondestructive editing**. Smart Filters even have their own raster mask, which can hide the filter effect (so the original image can be visible at some parts).
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,11 @@
+| | | | | | 
+February 20, 2024
+# Get Unlimited AI inside Photopea
+Photopea offers many AI features (, , etc). With a Premium account, you can use them hundreds of times per month, but what if you need even more?
+The following applies to Photopea Premium users, who have ran out of AI credits.
+## Get Unlimited Usage
+To keep using AI features inside Photopea, create a and get your API key.
+Then, inside Photopea, press Edit - Preferences, and enter your API key into the field "Dezgo API Key". And that's it! :)
+Now, if you are a Premium user and you run out of AI credits for a current month, Photopea will use the funds of your own Dezgo account (which you must charge yourself once in a while).
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

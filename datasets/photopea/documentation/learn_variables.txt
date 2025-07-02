@@ -1,0 +1,33 @@
+| | | | | | 
+### Topics
+# Variables
+Imagine a following task: we want to make a PNG image for each country of the world. The image should include the name of the country, the flag, some basic info, and a silhouette of South America, if the country is in South America.
+We would make a document with several layers for a specific country, e.g. for Brazil. After exporting a PNG, we would replace the flag, replace texts, and export a new PNG. Each image would take us 10 - 20 seconds to make.
+## Define Variables
+With Variables, we can modify these three features of a layer:
+  * **visibility** - should the layer be visible? 
+  * **text content** - a text content for that layer
+  * **pixel content** - a name of a file, which will replace pixels of a layer
+
+
+We can attach a variable to each of these features (so up to three variables per layer). Then, we simply give Photopea a spreedsheet (a table) with data, that should be used for each variable. Let's look at our previous example. 
+We have a document with five layers. Let's make variables for the first four layers.
+  * 1st layer text: **CName** (country name)
+  * 2nd layer text: **About** (info about that country)
+  * 3rd layer pixels: **Flag-image** (image with a flag)
+  * 4th layer visibility: **IsSA** (is in South America)
+
+
+Now, let's give Photopea the following spreadsheet with data for each variable.
+At the beginning, we only had a document with layers, and a table with data. **A variable is a link between a layer and a specific column in our table.** E.g. a layer with brown text is linked to the first column of a table by a variable "CName", etc.
+Now, a single click gives us these five PNG files:
+## Variables in Photopea
+Press **Image - Variables**. This feature has three parts: **Variables** , **Data Sets** and **Export as**.
+In **Variables** , select a layer from the list of layers. Then, you can enable up to three variables (for the visibility, text content, pixel content), and enter variable names.
+In **Data Sets** , load a specific spreadsheet from your computer (we support the CSV format, which can be exported from MS Excel, etc.). If you are replacing pixel content, click "Source images" and select files from your computer (file names should be the same as in your spreadsheet).
+The **Export as** lets you export images (according to your current Variables and Data Sets). Choose a format (and additional export parameters), and press "Export" to get a ZIP archive with exported images.
+Click OK to save the settings. These settings (of Variables and Data Sets) are a part of your document (are stored in a PSD file), but without Source images (you need to load Source images before each export).
+## Try it out!
+Try it out yourself! Here is and here is .
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

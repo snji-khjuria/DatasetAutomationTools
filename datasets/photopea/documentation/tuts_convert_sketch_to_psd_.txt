@@ -1,0 +1,13 @@
+| | | | | | 
+May 30, 2018
+# Convert Sketch to PSD
+Sometimes, we want to work with Sketch graphics in Photoshop. Sketch does not provide a PSD export, and Photoshop does not provide a Sketch import. Converting it manually is hard, but it can be done automatically, see how!
+## Sketch to PSD
+Today (the beginning of 2020), Photopea is the best tool to convert Sketch graphics to Photoshop files. Go to to start a free online photo editor. If you see a Welcome Screen, you can close it by pressing the Cross in the top right corner.
+Open a Sketch file from your computer: click **File - Open** (in the top left corner), then, find and select the Sketch file (or use ).
+You should see the graphics of the Sketch file in front of you. Now, just click **File - Save As PSD**. And that's all! So simple :)
+## Missing fonts
+If you see the text rendered with incorrect fonts, you can load the correct fonts into Photopea before opening a Sketch file (File - Open, choosing one or more TTF / OTF files).
+Photopea can let you store these fonts in a Local Storage (so that they remain even after closing Photopea). The Local Storage can be cleared in Edit - Local Storage, or by deleting **cookies and site data** in the settings of your browser.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

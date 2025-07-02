@@ -1,0 +1,21 @@
+| | | | | | 
+April 7, 2019
+# Photopea Doesn’t Work – What To Do
+Do you have problems when using ? Here are several tips.
+## Try it in Incognito Mode
+Open a new Incognito window, navigate to Photopea.com and try the same thing. If it works well, it means, that some of your browser extensions breaks Photopea (extensions are disabled in Incognito mode).
+Every extension is able to read, analyze and rewrite every website that you visit. Do not use extensions, when you don't know what exactly they do. Even if its name contains "Google", "Facebook", "Cleaner", "Guard" etc. Anybody can make an extension with such name.
+These extensions break Photopea: "DuckDuckGo Privacy Essentials".
+## Update your Browser
+Some features of Photopea may not work in browsers, that are more than three years old. Update your browser and see if it helps.
+Your browser can be too old, but it can also be "too new". Alpha and Beta versions of browsers, which are ahead of a stable release, can have many bugs. So try it in a stable release of a browser.
+## Site-rewriting Viruses and Antiviruses
+Viruses and Antivirus programs could try to change what you see on the web. Scan your OS for possible viruses. If your antivirus or firewall performs **website rewriting / censoring** (it could be called Web Security or Web Protection), try to disable it.
+## When You Can't Open Or Save a File
+Always try to open several different files (even JPGs, PNGs, ...). If you can not open or save any file at all, you probably have a too old browser, or extensions, that break Photopea.
+If some files work well, but others don't, send a problematic file to us to and we will take a look at it :)
+## MS Edge - no WebAssembly (2022)
+Photopea requires a modern browser (i.e. a browser with Javascript and WebAssembly support). For some reason, Microsoft decided, that WebAssembly is dangerous (even though it is as capable as Javascript). They encourage users to disable it, as a part of the **Enhanced Security Mode**.
+To enable WebAssembly in MS Edge, go to `edge://settings`, choose "Privacy, search and services" on the left side, scroll down to "Enhance your security on the web" and disable the switch.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,12 @@
+| | | | | | 
+May 30, 2018
+# Convert PDF to layered PSD
+Do you want to edit a PDF document, or use some of its graphics elsewhere? Let's see, how to convert it into a PSD with layers, so we can work with it in Photoshop!
+## PDF to PSD
+If you try to open a PSD file in Photoshop, it will rasterize it: each page will be a bitmap, consisting only of pixels. 
+Today (the beginning of 2020), Photopea is the best tool to convert PDF documents to Photoshop files. Go to to start a free online photo editor. If you see a Welcome Screen, close it by pressing the Cross in the top right corner.
+Open a PDF file from your computer: click **File - Open** (in the top left corner), then find and select the PSD file (or use ).
+You should see the graphics of the PDF file in front of you, one page next to another. Photopea converted pages into artboards. Text was made into Type Layers (you can see its font name, font size, color etc.). Bitmaps became Smart Objects (you can save them in the original resolution). Vector graphics became Vector Shapes (with a correct fill, stroke style, gradients etc.).
+Now, just click **File - Save As PSD**. And we are done!
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

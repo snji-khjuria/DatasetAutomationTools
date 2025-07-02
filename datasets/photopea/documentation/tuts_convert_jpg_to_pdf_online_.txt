@@ -1,0 +1,11 @@
+| | | | | | 
+February 8, 2022
+# Convert many JPGs to PDF Online
+Did you ever want to turn multiple JPG images into one PDF file? It is very simple!
+Open and press File - Automate - PDF Presentation.
+Click "Source Images" and select multiple images from your computer. You can select JPG, PNG, GIF, TIFF, BMP, or any other raster format. You can select the size of a page of your PDF, e.g. A4 in a portrait / landscape mode, or adapt each page to the image.
+Once you are done, click **Export PDF** , and that is it! The original quality is preserved, without any re-encoding. E.g. if your JPG images were 5 MB in total, the resulting PDF is also 5 MB.
+You have learned how to combine multiple images into a PDF document. You can even merge different formats or different resolutions. And best of all, there is no upload, it works even offline: you can open Photopea.com, disconnect from the internet, select JPGs from your computer, export a PDF, close Photopea and connect back again.
+Related: .
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

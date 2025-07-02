@@ -1,0 +1,12 @@
+| | | | | | 
+December 21, 2018
+# Vectorize Raster Images Online
+Often, we see images, that were originally made as vector graphics, but are only available as a PNG or JPG file. Recreating such image by hand can take a lot of time. How can we do it faster?
+## Converting Raster Graphics to Vectors
+Vectorization (or image tracing) can be done online for free. Go to . Press File - Open, and open your raster image. Next, press **Image - Vectorize Bitmap**.
+Here, we can see two previews: the original raster image on the left side, and the new vector image on the right side. You can zoom in and out with a mouse wheel, and move the preview by dragging it (both previews are zoomed and moved simultaneously).
+When the vector result does not look perfect, you can improve it by changing settings. Set the **Number of colors** to tell Photopea, how many colors should the result have. You can also enable or disable **Noise reduction** (it is appropriate for natural photos).
+## Save The Result
+When the result looks well, press the **OK** button to confirm the vectorization. Now, just press File - Export As - **PDF** , **SVG** or **EMF**. And we are done! :)
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

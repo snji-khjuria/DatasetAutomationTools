@@ -1,0 +1,16 @@
+| | | | | | 
+November 17, 2020
+# How to make a 3D photo for Facebook
+We can make posts with 3D photos on Facebook. We need to include a photo and a **depth map**. How can we easily make such depth maps?
+We need two images: a regular image with color (taken by a regular camera) and another, greyscale image, called a **depth map**. A depth map says, how far is each object from the camera (from its lens). Near objects are bright, while far objects are dark.
+An object in front is usually white. The sky is usually completely black.
+Phones with two or more cameras can capture depth maps and attach them to JPG photos. Open such JPG in to see a depth map inside it.
+## Create a Depth Map Yourself
+When we don't have a depth map from a camera, we can paint such greyscale image ourselves. is a great tool to do it! Start by opening a color photo (File - Open). Make a new empty layer (Layer - New - Layer). Decrease its opacity to 50% (at the top of the Layers panel, which is on the right). Now, when we paint with grey, we will still partially see the colored image.
+Choose a Brush tool (press B on the keyboard) and pick the grey color (at the bottom of the toolbar). Now, we can paint with shades of grey to make a depth map. We can use to paint only inside a specific area.
+## Quickly Preview The Result
+We can preview a 3D photo right in Photopea. Press Window - Plugins, find a "3D Depth Viewer" and install it. A button will appear on the right side, which opens a special plugin, where we can preview depth maps. First, make sure the color photo is visible, and press "Load Color" in the 3D Viewer. Then, unhide our depth map (set its opacity to 100%) and press "Load Depth" in the 3D Viewer. We should see the 3D image in front of us.
+## Save Two Images
+When the depth map looks well, save it to the computer. Press File - Export As - PNG, and press "Save", while adding the "_depth" to the end of the file name. If our colored image is named "dog.jpg", the depth map should have a name "dog_depth.png". Load both images into a Facebook post and publish your first 3D photo :)
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

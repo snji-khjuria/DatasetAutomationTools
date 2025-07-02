@@ -1,0 +1,18 @@
+| | | | | | 
+November 19, 2024
+# Store any data as a the “alpha” channel
+We can store any unrelated data ("alpha channel") into PNG and other formats, as the fourth, transparency channel. See how to do it! :)
+Digital color images cosist of three channels: Red, Green and Blue. Formats like PNG allow storing a fourth channel, which is usually used for storing the "visibility" of each pixel ("alpha channel").
+For decades, it has been popular to store an "unrelated" grayscale image as the fourth channel of a file (mainly as TGA, DDS or PNG files), to avoid having multiple files. Especially for video games, where such a file can be directly converted into a texture on the graphics accelerator. Editing such files can be tricky, as most of programs interpret the fourth channel as the visibility information.
+## Separating the transparency channel
+_*** These steps work in Adobe Photoshop and in ._
+Open your file (File - Open). Now, turn the transparency into a (Select - Load Selection - Layer Transparency). Convert this selecition into a channel (Select - Save Selection). Switch to Channels (Window - Channels) to see this new channel.
+## Make transparent pixels opaque
+To make all pixels of a layer opaque, move the transparency into a mask (Layer - Raster Mask - From Transparency) and delete this mask (Layer - Raster Mask - Delete).
+Now, we can edit two separate images (a layer with opaque pixels and a channel) independently. Rotate them, paint into them, etc.
+_*** When opening TGA files, the fourth channel is placed as a separate channel automatically, so these two steps are not needed (both in Photoshop and in Photopea)._
+## Placing a separate channel back into a file
+When exporting a PNG, a DDS or a TGA file in Photopea (File - Export As - PNG/DDS/TGA), there will be an option "extra channel as opacity". If you turn it on, the transparency of your image will be ignored, and the content of the first extra channel in the Channels panel will be used as the fourth channel of a file.
+Transparent pixels still preserve their color information (RGB values), which can be recovered as described at the beginning.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

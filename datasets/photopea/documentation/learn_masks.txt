@@ -1,0 +1,19 @@
+| | | | | | 
+### Topics
+# Masks
+We already know layers. They are building blocks of our document. Sometimes, we need to hide a part of the layer (so it is not shown in the result), without deleting the actual pixel data. In Photopea (and many other editors), it can be done with **masks**.
+We can think of a layer mask as an extra image, attached to the layer. It has the same size as that layer (so each pixel of the mask has a corresponding pixel in the layer). The mask does not have colors - it can be black and white only. The black color means, that corresponding pixels of the layer are hidden, while the white color means, that corresponding pixels of the layer are shown. Precisely, masks can have many shades of gray, and produce many levels of transparency.
+## Working with masks
+There are **raster masks** and **vector masks** (the difference will be explained later). Each layer can have at most one raster mask and at most one vector mask. Folders can also have masks (in that case, the mask is applied to the whole content of the folder). We can add a new mask to the active layer using Layer - Raster Mask - Add (or Layer - Vector Mask - Add). Masks can be deleted through Layer - Raster Mask - Delete (or Layer - Vector Mask - Delete).
+Thumbnails of new masks will appear next to the thumbnail of the layer.
+We can **enable** or **disable** each mask. When the mask is disabled, it has no effect on the image. It can be enabled again at any time. Right-click the thumbnail of the mask and choose Enable / Disable, or simply click the thumbnail of the mask with the Shift key pressed.
+Any change to the layer (e.g. drawing with a Brush tool, rotation etc.) can be applied to the mask, too. Click the main thumbnail, or the thumbnail of the mask, to choose, what you want to edit.
+Masks can be **linked** to the main content of the layer. It means, that when you move the main content, the mask is moved too, and if you move the mask, the main content is also moved. The link is represented by the chain icon on the left side of the thumbnail of the mask (each mask has its own link). Click the chain icon to link or unlink the mask.
+## Properties of the mask
+When you select a mask and open the **Properties** panel in the sidebar (or double-click the thumbnail of the mask), you can see some properties of the mask. The **Density** specifies the "opacity" of the mask (100% corresponds to a regular masking, 0% corresponds to no mask, values in between can be useful too). The next property is **Feather** , which adds a blur to the mask (i.e. it removes sharp edges between white and black areas of the mask). Note, that these properties do not change the actual content of the mask. They are used automatically, when the mask is applied to the image.
+## Raster and Vector masks
+There are two kinds of masks: raster masks and vector masks. The difference is in the way how each kind is created and represented.
+The **raster mask** is a simple grayscale image, that consists of pixels. Each tool, that can be applied to a regular layer (e.g. Brush, Eraser, Smudge, fill of the selection etc.) can also be applied to the raster mask, with the only difference, that all colors will become shades of gray.
+The **vector mask** consists of vector shapes, that are made of Bézier curves. You create it and work with it as with a vector object (by editing Bézier curves). These vector shapes are internally converted to a grayscale image and applied to the layer automatically. You can learn more in the .
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

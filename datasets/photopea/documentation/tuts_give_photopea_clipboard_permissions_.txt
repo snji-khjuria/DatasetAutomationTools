@@ -1,0 +1,10 @@
+| | | | | | 
+March 10, 2024
+# Give Photopea Clipboard Permissions
+How to give Photopea access to your Clipboard, to be able to copy / paste images to and from Photopea?
+## Google Chrome
+In Google Chrome, click the "Site Information", and enable the Clipboard access:
+## Microsoft Edge
+In Microsoft Edge, click the "Site Information", and enable the Clipboard access:
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

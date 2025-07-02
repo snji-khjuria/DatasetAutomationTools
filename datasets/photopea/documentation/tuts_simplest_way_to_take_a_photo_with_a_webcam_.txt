@@ -1,0 +1,10 @@
+| | | | | | 
+October 1, 2020
+# Simplest Way to Take a Photo with a Webcam
+Did you ever want to take a quick picture of yourself or someone, but all you had was a laptop (or a desktop)? Let's look at how to take a picture simply anywhere, on any device in a web browser.
+## Go to Photopea.com
+Open and press File - Take a picture. You will see the webcam output in front of you.
+At the top, you can choose a camera, if your device has multiple cameras. At the bottom left corner, you will see the resolution of the image. Now, press "Take a picture" button. You can close the window now, you will see your photo in front of you.
+Now, press File - Export As - JPG, and press Save. Your photo will be saved to your device. You can upload it to social networks, send to a friend, etc :)
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

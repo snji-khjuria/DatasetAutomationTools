@@ -1,0 +1,10 @@
+| | | | | | 
+May 7, 2022
+# New Free Transform
+The Free Transform tool works a little different now. It might feel strange at first, but we believe it is useful in the long run.
+When you start the Free Transform, the **aspect ratio is locked** by default: the image is resized proportionally. It is all controlled by the **chain icon** (between the "W" and "H" values).
+Turn it off transform freely, or turn it back on to lock the aspect ratio. Very simple!
+## The Shift Key
+Holding the Shift key on your keyboard simply "inverts" the behaviour. If the chain icon is turned on, holding Shift will let you transform freely. If the chain is turned off, hold Shift to preserve the aspect ratio (that is how it worked in the past).
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

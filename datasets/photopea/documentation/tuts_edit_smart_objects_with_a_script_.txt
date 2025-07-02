@@ -1,0 +1,38 @@
+| | | | | | 
+October 19, 2019
+# Edit Smart Objects with a Script
+Let's have a look at how we can edit Smart Objects from a Script in Photopea or Photoshop.
+The basic DOM (Document Object Model) allows us working with a document, create and edit layers, modify their properites, etc. But there are many operations, for which appropriate DOM commands do not exist.
+Photopea and Photoshop can . An action (one step) consists of two parts:
+  * **Name** - a string of text, such as "make", "select", etc.
+  * **Descriptor** - a structured object with additional parameters of the action
+
+
+We can create an action (its name and a descriptor) inside a script. Then, it can be executed using `executeAction(Name, Descriptor)`.
+## Open, edit and save a Smart Object
+The action **placedLayerEditContents** corresponds to opening a Smart Object.
+```
+// select a layer that you want to work with
+var l = app.activeDocument.layers.getByName("arrow");
+app.activeDocument.activeLayer = l;
+executeAction(stringIDToTypeID("placedLayerEditContents")); 
+// now, the Smart Object is an active document, we can work with it
+app.activeDocument.activeLayer.rotate(90);
+// save the smart object and close it
+app.activeDocument.save();
+app.activeDocument.close();
+
+```
+
+## Convert a layer into a Smart Object
+The action **newPlacedLayer** corresponds to clicking Layer - Convert to Smart Object.
+```
+// select a layer that you want to work with
+var l = app.activeDocument.layers.getByName("ground");
+app.activeDocument.activeLayer = l;
+executeAction(stringIDToTypeID("newPlacedLayer"));
+
+```
+
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

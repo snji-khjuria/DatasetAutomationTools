@@ -1,0 +1,31 @@
+| | | | | | 
+### Topics
+# Scripts
+In some cases, it is very useful to **automate** image editing. For example, we may need to have 30 copies of the layer, and place them all into a regular grid, 5 times 6, and gradually decrease their opacity. Or if we need to rotate by 90 degrees each layer, that contains "rotate" in its name.
+Photopea can execute scripts written in Javascript. It is very useful to know programming and the syntax of Javascript, however, even beginners can make simple scripts, which will do the job. You can learn how to write scripts from available demos.
+Use the **Script window** (File - Script) to work with scripts. Here you can type (or paste) a new script, and then click Run to execute it. Several demos are available in the top of the Script window. Scripts can be also executed through the .
+There is a **Save** button for saving scripts (they will stay even after closing Photopea). The list of saved scripts is at the bottom of the Script window. Photopea saves these files in a **Local Storage** , which can be managed through Edit - Local Storage.
+## Document Model
+Scripts allow you to access the content of the document through Javascript code. Instead of describing a new Document model, Photopea provides an interface similar to . It means, that the same scripts, that you wrote previously for Adobe Photoshop, could be used in Photopea to do the same task.
+There is a global object `app`, which represents the application. `app.activeDocument` lets you access the active document. A document has properties (`width`, `height`, `layers`, `currentLayer`, ...) and methods (`resizeImage()`, `resizeCanvas()`, ...). A layer also has properties (`name`, `visible`, `opacity`, ...) and methods (`rotate()`, `translate()`, ...). You can learn more in the official reference or in demos. Note, that many properties are **read-only** , you can not rewrite them directly (e.g. the width of the document - you must call resizeCanvas()). 
+If your script creates files in a filesystem (e.g. `Document.exportDocument()`), Photopea will offer you a ZIP archive with newly created files, after the script finishes.
+Photopea extends the model of Photoshop by adding several new functions: 
+App.open(url, as, asSmart) | Loads an image from URL. Set `asSmart` to true to paste an image into a current document as a smart object. `as` is ignored.  
+---|---  
+App.echoToOE(string) | Sends a string to an outer environment (See ).  
+App.showWindow(string) | Shows a window ("magiccut" for the Magic Cut, "vbitmap" for Vectorize Bitmap, etc).  
+App.UI | Modify the "viewing state". Has methods: `zoomIn(), zoomOut(), fitTheArea(), pixelToPixel(), switchFullscreen(), scroll(dx,dy), scrollTo(x,y)`.  
+Document.source | read / write: a string, that identifies the document. Initially, it is the URL for files loaded from a server, or "local,X,NAME" for other files.  
+Document.name | read / write: a String to be displayed as a "label" of a document. Setting name does not add a step into History.  
+Document.saveToOE("png") | Converts the document into a binary file and sends the file to an outer environment (See ), optional parameters after the colon: 
+  * `"jpg:0.8", "webp:0.6"` - JPG and WEBP can have a quality parameter
+  * `"psd:true"` - "true" produces a minified PSD file
+  * `"svg:true,false,..."` - SVG parameters correspond to those in the SVG export in Photopea
+
+JPG and WEBP can have a quallity (0 to 1) after the colon (e.g. "jpg:0.8"). PSD can have a "true" after the colon: "psd:true", to produce minified PSDs. SVG can have a list of   
+Document.clearHistory() | Clears the history of editing of a document. Should lead to releasing some RAM memory.  
+Layer.selected | Boolean: is layer selected ("highlighted") - read only  
+TextItem.totalTextStyle | String: a JSON object with all style parameters of the text  
+TextItem.transform | String: a JSON array with the affine transform matrix of the text  
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

@@ -1,0 +1,23 @@
+| | | | | | 
+### Topics
+# Text
+Putting text into images is an essential operation of image editing. Photopea offers a rich set of tools for working with text. Text is stored in PSD documents inside **Type Layers** , which have a thumbnail with a capital letter T on it.
+There are three kinds of Type layers:
+  * **Point text** - defined by the point of origin. The text starts at that point and continues on a single line until the line break (Enter).
+  * **Paragraph text** - defined by the rectangle. Paragraphs are broken automatically into multiple lines to fill the rectangle.
+  * **Text on a curve** - defined by a curve, letters are arranged along the curve.
+
+
+## Creating a Type layer
+The **Type tool** is used for working with Type layers: .
+To create a **Point text** , choose a Type tool and click (press and release) the mouse at some place, which will become the origin.
+To create a **Paragraph text** , press the mouse and drag it to draw a rectangle, then release the mouse. After creating the new Type layer, you can start typing.
+If you click inside a path, the rectangle will be made around that path, and the text will be constrained by a curve of that path. 
+To create a **text on a curve** , select a curve first (in Paths panel, or a shape layer / vector mask), and click on its contour.
+There will be two new symbols (points) on a curve: An X symbol and an O symbol. The text is placed between them. Use the Path Select tool to move these points, or to switch text rendering to the opposite side of the curve.
+## Editing a Type layer
+There are two important actions when editing type layers: **Entering** the layer and **Escaping** the layer. To Enter a type layer, just click on it with a Type tool (newly created layers are entered automatically). After entering the layer, the environment is locked and you can edit the layer (and nothing else). To do something else (e.g. edit another type layer), you must escape the current layer first. 
+To escape the type layer, you must confirm or cancel your changes using buttons in the top menu. Escaping and canceling changes is also possible with the Escape key on the keyboard.
+When you have entered a type layer, many ways of editing are possible. You can select any text with a mouse, delete it, add a new text, copy and paste etc. When it is a Paragraph text, you can also change the size of the rectangle by moving its corners. You can move the mouse outside the text, press and drag it, to move the type layer.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

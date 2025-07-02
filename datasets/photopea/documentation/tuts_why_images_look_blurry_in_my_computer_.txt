@@ -1,0 +1,19 @@
+| | | | | | 
+June 18, 2020
+# Why images look blurry in my computer
+When you create an image in Photopea, or any other editor, it looks great inside that editor. But after you save it and open it in another program, suddenly, it looks blurry. Why does it happen?
+For two decades (1992-2012), the usual resolution of a screen was around 1000 x 1000 pixels. "Typical" images (e.g. on websites or in an email) had a similar resolution around 800 x 800 pixels. Rendering images was easy: show one pixel of an image using one pixel of a monitor.
+As the time passed, new screens arrived with resolutions of 2000 x 2000 or even 3000 x 3000 pixels. Even a phone LG G3 (2014) had a screen of 1440 x 2560 pixels. How should we render typical images on these huge screens?
+If we render one image pixel as one screen pixel, an image of 800 x 800 pixels would look very small (e.g. 2x2 inches instead of 6x6 inches on an old screen). If it contained a text, that text would be impossible to read.
+The solution arrived: the **System Zoom**. A system zoom of 200% means, that images will be rendered 2x larger than their pixel resolution. If a website from 2002 contains a 100 x 50 pixel image, and a text size is 14 pixels, the image will be rendered at 200 x 100 pixels, while the text size will be 28 pixels. We can say, that an image of 100 x 50 **logical pixels** was rendered as 200 x 100 **physical (screen) pixels**.
+You can see or change your System Zoom in the settings of your device. For FullHD screens (1920 x 1080) it is usually 125%. For new phones (2015 - 2020), it is 300% or 400%.
+To scale an image by 200%, we simply draw each pixel as 2x2 screen pixels. But to scale it by 125%, a screen pixel may need to use colors from multiple image pixels, which creates a blur.
+|   
+---|---  
+A 4x4 checkerboard drawn at 8x8 pixels | A 4x4 checkerboard drawn at 5x5 pixels  
+My screen is FullHD and my system zoom is 125%. Here is a 400 x 400 pixel image opened in different programs. Only Photopea editor renders it at 400 x 400 screen pixels, while other programs render it at 500 x 500 screen pixels.
+|  |   
+---|---|---  
+Photopea | JPG opened in Chrome | Windows Image Viewer  
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

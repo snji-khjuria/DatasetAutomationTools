@@ -1,0 +1,25 @@
+| | | | | | 
+### Topics
+# Other Layers
+## Fill Layers
+There are two types of fill layers: **solid color fill** , **gradient fill** and **pattern fill**. A fill layer has a parameter (e.g. the gradient) and it will produce a full-width rectangle, that is filled with the corresponding color, the gradient or the pattern.
+Of course, there are many ways how to produce a layer filled with the color the gradient or the pattern. E.g. you can create an empty layer and use the Brush tool to paint it with the color. Fill layers have several advantages. They have a special thumbnail, which helps you see the purpose of the layer. Fill parameters (the color, the gradient or the pattern) can be easily modified. When you change the size of the canvas, the content of fill layers is regenerated automatically to fill the new canvas.
+Press Layer - New Fill Layer in the top menu to add a new fill layer. Parameters of the fill can be changed in the Properties panel (the panel will show up after double-clicking the thumbnail of the fill layer).
+## Adjustment layers
+Adjustment layers are the special kind of layers. They do not contain any image data, but they perform a color adjustment to the content below them.
+Imagine that you have a photo and you want to make it black and white (grayscale). Photopea gives you many ways to change the actual pixels of the photo layer, to make them grayscale. But with adjustment layers, you can make the photo look back and white, without actually cahnging pixels of the photo layer.
+You could simply add a Hue / Saturation adjustment layer on top of the photo layer, and set the Saturation parameter to zero.
+Press Layer - New Adjustment Layer in the top menu to add a new adjustment layer. Parameters of the adjustment can be changed in the Properties panel (the panel will show up after double-clicking the thumbnail of the adjustment layer).
+Just like any other layers, fill layers and adjustment layers can have their own blend mode, opacity, masks etc. The mask of an adjustment layer will cause, that the adjustment will be performed only to those areas of the content below, which are white inside the mask.
+## Rasterizing layers
+Each layer must have some pixel data, that will be used for combining the layer with other layers, to create the final image. But these pixel data can be generated in many different ways.
+We can separate layers inside PSD files into two different groups: **direct** ("regular") raster layers and **undirect** raster layers. For direct raster layers, the pixel information is the only information we have. For undirect raster layers, the pixel information is generated from some other information.
+Undirect layers are e.g. Smart Objects (their pixels are generated from the source image + position + transformation), fill layers (pixels generated from the fill parameters), text layers (pixels generated from some text and its parameters). We can not do pixel-specific operations on these layers (e.g. draw into them with a Brush, or blur a part of the layer with a Blur tool).
+To convert an undirect layer into a regular raster layer, we have to rasterize it (right-click - Rasterize, or Layer - Rasterize). Smart objects will lose the link to the source image, text layers will lose the text information, only pixel data will remain.
+## Clipping Masks
+In PSD files, any layer can have the **clipping mask** option enabled. When it is on for some layer L, then the transparency of the layer below (let's call it K) will be used as the mask for the layer L. In other words, botk K and L will be drawn, but only the transparency of K will be used.
+Here we can see a text layer containing Photopea, and the photo of grass on top of it. Normally, the layer with grass would cover the whole text. But since the grass is a clipping mask, the transparency of the text layer is used for both layers.
+You can have many clipping masks, one on top of another, to create a **chain** of clipping masks. In such case, the transparency of the first layer below them will be used for all layers in the chain.
+Clipping Mask can be enabled or disabled for any layer by right-clicking and choosing Clipping mask, or in the top menu: Layer - Clipping Mask, or by pressing Alt + Ctrl + G.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com

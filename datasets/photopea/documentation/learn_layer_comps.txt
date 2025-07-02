@@ -1,0 +1,19 @@
+| | | | | | 
+### Topics
+# Layer Comps
+Imagine, that you want to have three versions of your project. The first version should have a red background and some buttons at the top. The second version should have a green background and the same buttons on the bottom. The third version should have a blue background and the same buttons on the side. Each background and each button is in a separate layer. 
+One way to do it is to prepare the first version and put it all into a new folder. Then, you can duplicate the whole folder of layers and prepare the second version (rearrange buttons, hide the red background and unhide the blue background). Then you can duplicate one more time and prepare the third version.
+Such approach has many disadvantages. If you decide to edit one of buttons, you would have to edit all three copies of it. Duplicate content also makes PSD files larger.
+## What is Layer Comp?
+The layer comp is an object, which stores "the state" of a PSD document. Precisely, it stores the visibility, the position and the appearance (opacity, blend mode, layer style) of each layer.
+To solve the previous task, we could arrange layers in all three ways and create a Layer Comp for each arrangement. We can switch between layer comps later. Switching layer comps performs the change of visibility, position and a style to a previously stored value in a signle click.
+Each layer comp has the name and three flags: **Visibility, Position and Appearance**. Each flag can be enabled or disabled. When some layer comp is activated, the change will be performed according to these flags.
+For example, you are making a collage with animals. You want to be able make only birds visible. Also, you want to be able to make only brown animals visible. Splitting animals into three folders Birds, Brown and the Rest is not possible (because some birds are brown). You can create layer comps Birds and Brown, and enable just the Visibility flag on these comps. Later, if you move animals around and switch to Birds, only the visibility of layers will be changed, while the position (an the style) will be preserved.
+## Layer Comps Panel
+Management of Layer Comps is available through the Layer Comps panel. You can open that panel using Windows - Layer Comps.
+At the top, there is the **Last Document State** , which stores the last document state. Each item has the Apply button on the left. The button contains a checkmark **✓** when that layer comp is applied, or the dash otherwise. You can switch between layer comps (or the last document state) by clicking this button. 
+You can select layer comps in the panel by clicking on their names, without actually applying them. Once a layer comp is selected, you can delete it by clicking the bin button, or update it by clicking the update button. You can also create a new Layer Comp by clicking the New button.
+You can rename any layer comp by double-clicking its name, typing a new name and hitting Enter. Each item also has three buttons, which you can use to switch the Visibility, Position and Appearance flags. 
+When you apply a specific layer comp and then start editing the document, the current state (created by the Layer Comp) will become the Last Document State and all your changes will be performed within that Last Document State. If you want to make changes to some Layer Comp, edit the document first (inside the Last Document State), then select the comp in the panel and press the Update button.
+Do you need help? Ask us at !
+© 2013-2025 support@photopea.com
