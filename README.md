@@ -18,8 +18,7 @@ crawlers/
     photopea/
         documentation_crawler.py
         pdf_dataset_downloader.py
-    youtube_playlist_transcriber.py
-    url_crawler.py
+        youtube_content_crawler.py
 datasets/
     ...
 ```
