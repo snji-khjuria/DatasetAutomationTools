@@ -1,2 +1,5 @@
 pip install gdown
 pip install -U crawl4ai
+pip install pytube
+pip install yt-dlp
+pip install faster-whisper

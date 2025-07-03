@@ -10,8 +10,16 @@ from crawl4ai.async_configs import BrowserConfig, CrawlerRunConfig
 import os
 import shutil
 import gdown
+import yt_dlp
+import tempfile
+import glob
 
+from faster_whisper import WhisperModel
 
+model_size="tiny"
+model = WhisperModel(model_size)
+
+ffmpeg_path = "C:/Program Files/ffmpeg-7.1.1-essentials_build/ffmpeg-7.1.1-essentials_build/bin/ffmpeg.exe"
 def extract_urls(url, url_info):
     approved_prefix, banned_urls = url_info
     """Extract all URLs from a given web page using crawl4ai."""
@@ -90,3 +98,49 @@ def download_drive_folder(drive_url: str, local_folder: str):
     gdown.download_folder(f"https://drive.google.com/drive/folders/{folder_id}", output=local_folder, quiet=False, use_cookies=False)
 
     print(f"All files downloaded to: {local_folder}")
+
+
+
+def get_youtube_playlist_video_urls(playlist_url):
+    ydl_opts = {'quiet': True, 'extract_flat': True, 'skip_download': True}
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        info = ydl.extract_info(playlist_url, download=False)
+        return [entry['url'] for entry in info['entries'] if 'url' in entry]
+
+def transcribe_youtube_audio_direct(video_url):
+    tmp_dir = tempfile.mkdtemp()
+
+    try:
+        ydl_opts = {
+            'format': 'bestaudio/best',
+            'quiet': True,
+            'outtmpl': os.path.join(tmp_dir, "%(title).128s.%(ext)s"),
+            'postprocessors': [{
+                'key': 'FFmpegExtractAudio',
+                'preferredcodec': 'mp3',
+                'preferredquality': '192',
+            }],
+        }
+
+        if ffmpeg_path:
+            ydl_opts['ffmpeg_location'] = ffmpeg_path
+
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(video_url, download=True)
+            title = info.get('title', 'untitled').replace("/", "_").replace("\\", "_")
+
+        mp3_files = glob.glob(os.path.join(tmp_dir, "*.mp3"))
+        if not mp3_files:
+            raise RuntimeError("MP3 file not found after download.")
+
+        mp3_path = mp3_files[0]
+
+        # Use faster-whisper: returns (segments, info)
+        segments, _ = model.transcribe(mp3_path)
+
+        transcript = "".join([segment.text.strip() + "\n" for segment in segments])
+
+        return transcript, title
+
+    finally:
+        shutil.rmtree(tmp_dir, ignore_errors=True)
