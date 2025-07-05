@@ -11,15 +11,17 @@ import os
 import shutil
 import gdown
 
-def extract_urls(url, url_info):
-    approved_prefix, banned_urls = url_info
+def extract_urls(url_info):
     """Extract all URLs from a given web page using crawl4ai."""
+    approved_prefix, banned_urls = url_info
+    print(approved_prefix)
+    print(banned_urls)
     async def _extract():
         async with AsyncWebCrawler() as crawler:
-            result = await crawler.arun(url=url)
+            result = await crawler.arun(url=approved_prefix)
             links = result.links
             if not links:
-                print(f"No links found on the page: {url}")
+                print(f"No links found on the page: {approved_prefix}")
                 return []
             internal_links = [k["href"] for k in links.get("internal", []) if k["href"].startswith(approved_prefix)]
             external_links = [k["href"] for k in links.get("external", []) if k["href"].startswith(approved_prefix)]
@@ -28,6 +30,16 @@ def extract_urls(url, url_info):
             return list(set(total_urls))
     return asyncio.run(_extract())
 
+def get_all_documentation_links(urls_to_crawl):
+    all_links = []
+    for url_info in urls_to_crawl:
+        urls = url_info["url"]
+        banned_urls = url_info.get("banned_urls", set())
+        print(f"Extracting links from: {urls}")
+        links       = extract_urls((urls, banned_urls))
+        if links:
+            all_links.extend(links)
+    return all_links
 
 
 def sanitize_filename(url, removable_prefix_list):
@@ -78,12 +90,16 @@ def download_drive_folder(drive_url: str, local_folder: str):
     if os.path.exists(local_folder):
         shutil.rmtree(local_folder)
     os.makedirs(local_folder, exist_ok=True)
+    if drive_url is None or not drive_url.strip():
+        print("No Google Drive folder URL provided. Skipping download.")
+        return
 
     # Extract folder ID from the Google Drive folder URL
     if "folders/" in drive_url:
         folder_id = drive_url.split("folders/")[1].split("?")[0]
     else:
-        raise ValueError("Invalid folder link. Must be of the form: https://drive.google.com/drive/folders/<FOLDER_ID>")
+        print("Invalid folder link. Must be of the form: https://drive.google.com/drive/folders/<FOLDER_ID>")
+        return
 
     # gdown format to download folders
     gdown.download_folder(f"https://drive.google.com/drive/folders/{folder_id}", output=local_folder, quiet=False, use_cookies=False)

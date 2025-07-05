@@ -1,6 +1,6 @@
 import asyncio
 import argparse
-from utils import process_url_list, download_drive_folder
+from utils import process_url_list, download_drive_folder, get_all_documentation_links
 from youtube_utils import prepare_youtube_dataset
 
 parser = argparse.ArgumentParser(description="Complete Crawler")
@@ -28,7 +28,7 @@ youtube = args.youtube
 import importlib
 config_module = importlib.import_module(f"{args.config}.config")
 removable_prefix_list       = config_module.removable_prefix_list
-get_all_documentation_links = config_module.get_all_documentation_links
+urls_to_crawl                   = config_module.urls_to_crawl
 documentation_run_config    = config_module.documentation_run_config
 documentation_output_dir    = config_module.documentation_output_dir
 
@@ -46,7 +46,7 @@ print("PDF:", args.pdf)
 print("YouTube:", args.youtube)
 if documentation:
     print("Starting the documentation dataset downloader script.")
-    all_links = get_all_documentation_links()
+    all_links = get_all_documentation_links(urls_to_crawl)
     print("Total URLs found:", len(all_links))
     asyncio.run(process_url_list(all_links, removable_prefix_list, documentation_run_config, output_dir=documentation_output_dir))
     print("Documentation dataset downloaded successfully.")
